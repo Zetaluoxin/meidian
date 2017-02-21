@@ -1,0 +1,34 @@
+[ 2016-12-15T11:01:20+08:00 ] ::1 /meidian/index.php/Admin/Advert/uploads?file=3420027_192919547000_2.jpg
+ERR: 无法加载控制器:Advert
+
+[ 2016-12-15T11:09:18+08:00 ] ::1 /meidian/index.php/Admin/Comon/upload?file=3420027_192919547000_2.jpg
+ERR: 无法加载控制器:Comon
+
+[ 2016-12-15T13:52:53+08:00 ] ::1 /meidian/index.php/Admin/Advert/uploads
+ERR: 1146:La table 'md.md_advert' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_advert`
+
+[ 2016-12-15T13:54:51+08:00 ] ::1 /meidian/index.php/Admin/Advert/uploads
+ERR: 1146:La table 'md.md_advert' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_advert`
+
+[ 2016-12-15T13:58:07+08:00 ] ::1 /meidian/index.php/Admin/Advert/uploads
+ERR: 1146:La table 'md.md_advertisement' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_advertisement`
+
+[ 2016-12-15T14:01:44+08:00 ] ::1 /meidian/index.php/Admin/Advert/uploads
+ERR: 1048:Le champ 'user_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company`,`ad_area`,`ad_place`,`ad_putnum`,`ad_time`,`ad_url`) VALUES (NULL,'qqq','www','eee','rrr','ttt','123','2016-12-15 14:01:44','�')
+
+[ 2016-12-15T15:12:07+08:00 ] ::1 /meidian/index.php/Admin/Common/upload
+ERR: 非法图像文件
+
+[ 2016-12-15T15:16:41+08:00 ] ::1 /meidian/index.php/Admin/Common/upload
+ERR: 非法图像文件
+
+[ 2016-12-15T15:34:25+08:00 ] ::1 /meidian/index.php/Admin/Common/upload
+ERR: 非法图像文件
+
+[ 2016-12-15T15:35:00+08:00 ] ::1 /meidian/index.php/Admin/Common/upload
+ERR: 非法图像文件
+

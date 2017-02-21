@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美点首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/chosen.css">
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/colorbox.css">
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<include file="Index:nav"/>
+	<div class="main-container" id="main-container">
+		<include file="Index:left"/>
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="#">首页</a>
+					</li>
+
+					<li>
+						<a href="#">广告主管理</a>
+					</li>
+					<li class="active"> 编辑广告主 </li>
+				</ul><!-- .breadcrumb -->
+
+				<div class="nav-search" id="nav-search">
+					<form class="form-search">
+						<span class="input-icon">
+							<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+							<i class="icon-search nav-search-icon"></i>
+						</span>
+					</form>
+				</div><!-- #nav-search -->
+			</div>
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						广告主管理
+						<small>
+							<i class="icon-double-angle-right"></i>
+							编辑广告主
+						</small>
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="form-horizontal form" role="form" name="<{$com.id}>">
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 广告主名称 </label>
+
+								<div class="col-sm-9">
+									<input type="text" id="form-field-1" placeholder="广告主名称" class="col-xs-10 col-sm-5" name="com_name" value="<{$com.com_name}>">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 联系方式 </label>
+
+								<div class="col-sm-9">
+									<div id="place_select">
+										<select class="width-20 " id="form-field-select-3" name="province">
+											<option value="">请选择省份</option>
+											<foreach name="province" item="pro">
+											<option value="<{$pro.id}>" 
+											<php>
+											if($com['province_id'] == $pro['id']){echo 'selected';}
+											</php>
+											><{$pro.province_name}></option>
+											</foreach>
+										</select>
+										<select class="width-20 " id="form-field-select-1" name="city">
+											<option value="">请选择城市</option>	
+											<php>
+											if($com['city_id']){
+												echo "<option value=".$com['city_id']." selected>".getCity($com['city_id'])."</option>";
+											}
+											</php>	
+										</select>
+										<select class="width-20 " id="form-field-select-3" name="district">
+											<option value="">请选择区/县</option>
+											<php>
+											if($com['district_id']){
+												echo "<option value=".$com['district_id']." selected>".getDistrict($com['district_id'])."</option>";
+											}
+											</php>
+										</select>
+										<select class="width-20 " id="form-field-select-3" name="street">
+											<option value="">请选择街道/村</option>
+											<php>
+											if($com['street_id']){
+												echo "<option value=".$com['street_id']." selected>".getStreet($com['street_id'])."</option>";
+											}
+											</php>
+										</select>
+										<select class="width-20 " id="form-field-select-3" name="barbershop">
+											<option value="">请选择理发店</option>
+											<php>
+											if($com['barbershop_id']){
+												echo "<option value=".$com['barbershop_id']." selected>".getShopname($com['barbershop_id'])."</option>";
+											}
+											</php>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 管理员 </label>
+
+								<div class="col-sm-9">
+									<div>
+										<select class="width-80 chosen-select" id="form-field-select-3" data-placeholder="Choose a Country..." style="display: none;" name="user_id">
+											<option value="">&nbsp;</option>
+											<foreach name="user" item="u">
+											<option value="<{$u.id}>"
+											<php>
+												if($com['user_id'] == $u['id']){echo 'selected';}
+											</php>
+											><{$u.username}></option>
+											</foreach>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div><!--表单组-->
+						<div class="clearfix form-actions">
+							<div class="col-md-offset-3 col-md-9">
+								<button class="btn btn-info updateCompany" type="button">
+									<i class="icon-ok bigger-110"></i>
+									修改
+								</button>
+
+								&nbsp; &nbsp; &nbsp;
+								<button class="btn reset" type="reset">
+									<i class="icon-undo bigger-110"></i>
+									重置
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--page-content-->
+			<include file="Index:setting"/>
+		</div>
+	</div>
+</body>
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/Js/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+		 window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="__PUBLIC__/assets/js/chosen.jquery.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog/layer.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/fun.js"></script>
+		<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+		<script src="__PUBLIC__/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.sparkline.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.resize.min.js"></script>
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+
+		<script type="text/javascript">
+			window.onload = function(){
+				$(".chosen-select").chosen(); 
+				updateCompany();
+				placesec();
+			}
+
+			function updateCompany(){
+				$(".updateCompany").click(function(){
+					var id = $(".form").attr("name");
+					var com_name = $("[name=com_name]").val();
+					var user_id = $("[name=user_id]").val();
+					var province_id = $("[name=province]").val();
+			        var city_id = $("[name=city]").val();
+			        var district_id = $("[name=district]").val();
+			        var street_id = $("[name=street]").val();
+			        var barbershop_id = $("[name=barbershop]").val();
+					if(com_name == '' || user_id == ''){
+						return dialog.error("请录入完整信息!");
+					}
+					$.ajax({
+						"url":app+"/Admin/Company/updateCompany",
+						"type":"post",
+						"data":{
+							"company_id":id,
+							"com_name":com_name,
+							"user_id":user_id,
+							"province_id":province_id,
+			                "city_id":city_id,
+			                "district_id":district_id,
+			                "street_id":street_id,
+			                "barbershop_id":barbershop_id
+						},
+						"success":function(res){
+							if(res.status){
+								return dialog.successconfirm("修改成功");
+							}
+							return dialog.error("修改失败");
+						}
+					});
+				});
+			}
+		</script>
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</html>

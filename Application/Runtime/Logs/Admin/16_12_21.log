@@ -1,0 +1,506 @@
+[ 2016-12-21T09:49:04+08:00 ] ::1 /meidian/index.php/Admin/File/updateFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0025s ]
+SQL: UPDATE `md_file_img` SET `status`='已上线' WHERE ( id='5' ) [ RunTime:0.0147s ]
+
+[ 2016-12-21T10:11:45+08:00 ] ::1 /meidian/index.php/Admin/File/delFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0026s ]
+SQL: DELETE FROM `md_file_img` WHERE ( id='1' ) [ RunTime:0.0021s ]
+
+[ 2016-12-21T10:48:00+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','还撒谎大师的话','hsdb','0','0','500','2016-12-21 10:48:00') [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0049s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('1','0') [ RunTime:0.0003s ]
+
+[ 2016-12-21T10:48:06+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','dfd','hsdb','0','0','500','2016-12-21 10:48:06') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0025s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('2','0') [ RunTime:0.0003s ]
+
+[ 2016-12-21T10:48:10+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','士大夫士大夫','hsdb','0','0','500','2016-12-21 10:48:10') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0026s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('3','0') [ RunTime:0.0002s ]
+
+[ 2016-12-21T10:48:13+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','尔特人','hsdb','0','0','500','2016-12-21 10:48:13') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0020s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('4','0') [ RunTime:0.0003s ]
+
+[ 2016-12-21T11:29:49+08:00 ] ::1 /meidian/index.php/Admin/Index/addAdvert
+ERR: Think\Controller:getProduct方法不存在！
+
+[ 2016-12-21T11:29:52+08:00 ] ::1 /meidian/index.php/Admin/Index/addAdvert
+ERR: Think\Controller:getProduct方法不存在！
+
+[ 2016-12-21T12:37:54+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_putnum`,`ad_time`) VALUES ('1','ldhfjk','kjashdjk','0','700','2016-12-21 12:37:54') [ RunTime:0.0003s ]
+ERR: 1146:La table 'md.md_ad_place' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_ad_place`
+ERR: 1146:La table 'md.md_ad_place' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_ad_place`
+
+[ 2016-12-21T12:37:58+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_putnum`,`ad_time`) VALUES ('1','ldhfjk','kjashdjk','0','700','2016-12-21 12:37:58') [ RunTime:0.0002s ]
+ERR: 1146:La table 'md.md_ad_place' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_ad_place`
+ERR: 1146:La table 'md.md_ad_place' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_ad_place`
+
+[ 2016-12-21T12:42:00+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_putnum`,`ad_time`) VALUES ('1','sdssd','sada','0','300','2016-12-21 12:42:00') [ RunTime:0.0002s ]
+ERR: 1146:La table 'md.md_ad_place' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_ad_place`
+ERR: 1146:La table 'md.md_ad_place' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_ad_place`
+
+[ 2016-12-21T13:20:09+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_place_id`,`ad_putnum`,`ad_time`) VALUES ('1','kdjfhsdjk','jkdsfhj','2','0','300','2016-12-21 13:20:09') [ RunTime:0.0010s ]
+
+[ 2016-12-21T13:21:08+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 55 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_place_id`,`ad_putnum`,`ad_time`) VALUES ('1','kdjfhsdjk','jkdsfhj','2','1','0','300','2016-12-21 13:21:08') [ RunTime:0.0003s ]
+
+[ 2016-12-21T13:21:28+08:00 ] ::1 /meidian/index.php/Admin/Index/getAdvert
+ERR: 1146:La table 'md.md_ad_place' n'existe pas
+ [ SQL语句 ] : SELECT b.* FROM md_ad_place AS a, md_place AS b WHERE a.place_id = b.id AND a. ad_id='1'
+
+[ 2016-12-21T13:55:20+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0030s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161221/thumb1482299715_1593487275.jpg','20161221/1482299715_1593487275.jpg','84481_20130116142820494200_1.jpg','137992') [ RunTime:0.0003s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161221/thumb1482299718_2110657489.jpg','20161221/1482299718_2110657489.jpg','84481_20130116142820494200_1.jpg','137992') [ RunTime:0.0002s ]
+
+[ 2016-12-21T17:10:38+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0034s ]
+
+[ 2016-12-21T17:10:38+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0030s ]
+
+[ 2016-12-21T17:10:47+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0027s ]
+
+[ 2016-12-21T17:10:50+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0029s ]
+
+[ 2016-12-21T17:11:21+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0030s ]
+
+[ 2016-12-21T17:12:08+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0023s ]
+
+[ 2016-12-21T17:20:57+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0043s ]
+
+[ 2016-12-21T17:29:02+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 56 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_text`,`ad_company_id`,`ad_area_id`,`ad_place_id`,`ad_putnum`,`ad_time`) VALUES ('1','fgdfgdfg','','dfgsertwfrwsfsd','1','1','0','100','2016-12-21 17:29:02') [ RunTime:0.0005s ]
+
+[ 2016-12-21T17:29:26+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0027s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161221/thumb1482312562_1514714699.jpg','20161221/1482312562_1514714699.jpg','84481_20130116142820494200_1.jpg','137992') [ RunTime:0.0003s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161221/thumb1482312564_155032225.jpg','20161221/1482312564_155032225.jpg','84481_20130116142820494200_1.jpg','137992') [ RunTime:0.0002s ]
+
+[ 2016-12-21T17:30:46+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0047s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0004s ]
+
+[ 2016-12-21T21:33:50+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0042s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0027s ]
+
+[ 2016-12-21T21:33:52+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0049s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0003s ]
+
+[ 2016-12-21T21:33:57+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0045s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0005s ]
+
+[ 2016-12-21T21:36:14+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0192s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0043s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0003s ]
+
+[ 2016-12-21T21:36:20+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0041s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0002s ]
+
+[ 2016-12-21T21:48:11+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0049s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0003s ]
+
+[ 2016-12-21T21:48:40+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 56 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_text`,`ad_company_id`,`ad_area_id`,`ad_place_id`,`ad_putnum`,`ad_time`) VALUES ('1','会计师对方就是打开','','健康都很费劲','1','1','0','100','2016-12-21 21:48:40') [ RunTime:0.0005s ]
+
+[ 2016-12-21T21:48:54+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0048s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161221/thumb1482328131_1024953258.jpg','20161221/1482328131_1024953258.jpg','84481_20130116142820494200_1.jpg','137992') [ RunTime:0.0005s ]
+
+[ 2016-12-21T21:49:01+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0010s ]
+
+[ 2016-12-21T21:49:03+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0035s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0002s ]
+
+[ 2016-12-21T21:51:50+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2016-12-21T21:52:42+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-12-21T21:53:23+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0048s ]
+SQL: UPDATE `md_advert` SET `img_id`='1',`video_id`='0' WHERE ( id='1' ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-12-21T21:54:13+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='1' ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 163 行.
+
+[ 2016-12-21T21:55:25+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0062s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='1' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-12-21T21:56:04+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0035s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161221/thumb1482328563_1997909717.jpg','20161221/1482328563_1997909717.jpg','mmexport1481890348662.jpg','161984') [ RunTime:0.0006s ]
+
+[ 2016-12-21T21:56:12+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0053s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='1' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T21:57:54+08:00 ] ::1 /meidian/index.php/Admin/Advert/updateAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: UPDATE `md_advert` SET `ad_status`='未上架',`ad_examine`='未审核',`ad_pay`='免费' WHERE ( id='1' ) [ RunTime:0.0003s ]
+
+[ 2016-12-21T22:00:58+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0039s ]
+
+[ 2016-12-21T22:02:27+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0042s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='1' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-12-21T22:02:44+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0051s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='1' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:03:29+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 56 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_text`,`ad_company_id`,`ad_area_id`,`ad_place_id`,`ad_putnum`,`ad_time`) VALUES ('1','可视对讲回复','','可视对讲覅塑料袋会计法','1','1','0','100','2016-12-21 22:03:29') [ RunTime:0.0004s ]
+
+[ 2016-12-21T22:03:52+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0043s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='2' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:03:57+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0039s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='2' ) [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:08:39+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0048s ]
+SQL: UPDATE `md_advert` SET `img_id`='2' WHERE ( id='2' ) [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:08:42+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='2' ) [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:08:46+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0034s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='2' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:08:55+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='2' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:08:58+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: UPDATE `md_advert` SET `img_id`='2' WHERE ( id='2' ) [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:09:01+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0039s ]
+SQL: UPDATE `md_advert` SET `img_id`='2' WHERE ( id='1' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:09:04+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0033s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='1' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+
+[ 2016-12-21T22:09:08+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0049s ]
+SQL: UPDATE `md_advert` SET `img_id`='1' WHERE ( id='1' ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: video_id C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 164 行.
+

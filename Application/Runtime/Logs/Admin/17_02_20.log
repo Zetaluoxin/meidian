@@ -1,0 +1,34 @@
+[ 2017-02-20T09:26:12+08:00 ] ::1 /meidian/index.php/admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0005s ]
+SQL: UPDATE `md_user` SET `logintime`='2017-02-20 09:26:12',`lastloginip`='0.0.0.0' WHERE ( id='1' ) [ RunTime:0.0015s ]
+
+[ 2017-02-20T09:36:12+08:00 ] ::1 /meidian/index.php/Admin/Advert/payAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0076s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0059s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0054s ]
+SQL: UPDATE `md_advert` SET `ad_pay`='未付费' WHERE `id` = 11 [ RunTime:0.0004s ]
+
+[ 2017-02-20T09:36:17+08:00 ] ::1 /meidian/index.php/Admin/Advert/payAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002834s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0068s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0075s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: UPDATE `md_advert` SET `ad_pay`='免费' WHERE `id` = 11 [ RunTime:0.0005s ]
+

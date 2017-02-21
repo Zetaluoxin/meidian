@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+	.main-content{
+		background: url("../../../Public/background/lw.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+</style>
+<head>
+	<meta charset="UTF-8">
+	<title>美点首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/chosen.css">
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/colorpicker.css">
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+		<style type="text/css">
+			.main-content{
+				background: url("../../../Public/a.jpg");
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+			}
+		</style>
+</head>
+<body>
+	<include file="Index:nav"/>
+	<div class="main-container" id="main-container">
+		<include file="Index:left"/>
+		<div class="main-content" style="height: 591px;">
+			<!-- <div style="clear: both;"></div> -->
+		<div></div>
+			<include file="Index:setting"/>
+		</div>
+	</div>
+</body>
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/Js/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+		 window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="__PUBLIC__/assets/js/chosen.jquery.min.js"></script>
+		<script src="__PUBLIC__/assets/js/bootstrap-colorpicker.min.js"></script>
+		<script src='__PUBLIC__/Js/dialog/layer.js'></script>
+		<script src='__PUBLIC__/Js/dialog.js'></script>
+		<script src="__PUBLIC__/Js/fun.js"></script>
+		<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+		<script src="__PUBLIC__/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.sparkline.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.resize.min.js"></script>
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			window.onload = function(){
+				$(".chosen-select").chosen(); 
+				$('#colorpicker1').colorpicker();
+				var windowH = $(document).outerHeight(true);
+				var navH = $("#navbar").outerHeight(true);
+				$(".main-content").height(windowH-navH);
+			}
+		</script>
+		
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</html>

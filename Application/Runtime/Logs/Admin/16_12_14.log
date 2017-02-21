@@ -1,0 +1,151 @@
+[ 2016-12-14T09:28:55+08:00 ] ::1 /meidian/index.php/admin/user/add
+ERR: 无法加载控制器:User
+
+[ 2016-12-14T11:08:23+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:08:44+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:08:45+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:10+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:11+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:12+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:12+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:12+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:13+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:14+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:14+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:14+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:46+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:47+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:47+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:47+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:47+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:47+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:47+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:48+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:48+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:48+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:48+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T11:09:48+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T13:44:55+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T13:44:56+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T13:44:56+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T13:44:56+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T13:44:57+08:00 ] ::1 /meidian/index.php/admin/adduser
+ERR: 无法加载控制器:Adduser
+
+[ 2016-12-14T13:45:48+08:00 ] ::1 /meidian/index.php/admin/admin/user/adduser
+ERR: 无法加载控制器:Admin
+
+[ 2016-12-14T13:46:07+08:00 ] ::1 /meidian/index.php/admin/user/adduser
+ERR: 无法加载控制器:User
+
+[ 2016-12-14T13:46:49+08:00 ] ::1 /meidian/index.php/admin/advertisement
+ERR: 无法加载控制器:Advertisement
+
+[ 2016-12-14T13:48:13+08:00 ] ::1 /meidian/index.php/admin/user/index
+ERR: 无法加载控制器:User
+
+[ 2016-12-14T13:54:28+08:00 ] ::1 /meidian/index.php/admin/user/index
+ERR: 模板不存在:./Application/Admin/View/User/index.html
+
+[ 2016-12-14T15:33:30+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: Think\Model:update方法不存在！
+
+[ 2016-12-14T15:34:33+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id= )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id= )
+
+[ 2016-12-14T15:35:09+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:10+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:45+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:46+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:47+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:48+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:49+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:50+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T15:35:52+08:00 ] ::1 /meidian/index.php/admin/user/addUserGroupByUserId
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=2 )' at line 1
+ [ SQL语句 ] : UPDATE `md_user` SET  WHERE ( id=2 )
+
+[ 2016-12-14T17:04:50+08:00 ] ::1 /meidian/index.php/admin/user/addUserInfo
+ERR: Think\Controller:erro方法不存在！
+

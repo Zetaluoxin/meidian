@@ -1,0 +1,748 @@
+[ 2017-02-08T14:54:23+08:00 ] 182.137.15.216 /meidian/index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-02-08T14:54:39+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T14:55:48+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T14:55:54+08:00 ] 182.137.15.216 /meidian/index.php/Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'md'
+
+[ 2017-02-08T15:01:46+08:00 ] 182.137.15.216 /meidian/index.php/Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = '123' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0010s ]
+SQL: UPDATE `md_user` SET `logintime`='2017-02-08 15:01:46',`lastloginip`='182.137.15.216' WHERE ( id='1' ) [ RunTime:0.0010s ]
+
+[ 2017-02-08T15:01:48+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 178 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 179 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 186 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 195 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 203 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 204 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 211 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 218 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 228 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 236 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 237 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 244 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 254 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 263 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 279 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 287 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 288 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 304 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 312 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 313 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 320 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T15:05:00+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: index_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 148 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 155 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 163 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 164 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 171 行.
+NOTIC: [8] Undefined index: get C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 196 行.
+NOTIC: [8] Undefined index: auth C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 203 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 213 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 221 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 222 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 229 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 239 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 247 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 248 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 255 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 264 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 272 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 273 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 280 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 289 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 297 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 298 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 305 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T15:07:14+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: index_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 148 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 155 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 163 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 164 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 171 行.
+NOTIC: [8] Undefined index: get C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 196 行.
+NOTIC: [8] Undefined index: auth C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 203 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 213 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 221 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 222 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 229 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 239 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 247 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 248 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 255 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 264 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 272 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 273 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 280 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 289 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 297 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 298 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 305 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2017-02-08T15:14:18+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: index_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 148 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 155 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 163 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 164 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 171 行.
+NOTIC: [8] Undefined index: get C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 196 行.
+NOTIC: [8] Undefined index: auth C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 203 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 213 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 221 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 222 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 229 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 239 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 247 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 248 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 255 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 264 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 272 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 273 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 280 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 289 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 297 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 298 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 305 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\3d25fa62c9ba573bbf97773c5d499cff.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2017-02-08T15:18:22+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T15:18:29+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 178 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 179 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 186 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 195 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 203 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 204 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 211 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 218 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 228 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 236 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 237 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 244 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 254 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 263 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 279 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 287 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 288 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 304 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 312 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 313 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 320 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-02-08T15:22:48+08:00 ] 182.137.15.216 /meidian/Admin/index/getAdvert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: format C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 85 行.
+NOTIC: [8] Undefined index: format C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 87 行.
+NOTIC: [8] Undefined index: area C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 90 行.
+SQL: SELECT * FROM `md_advert`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: index_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 149 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 165 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 181 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 189 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 190 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 197 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 204 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 214 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 222 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 223 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 230 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 240 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 248 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 249 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 256 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 265 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 273 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 274 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 281 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 290 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 298 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 299 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 306 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 315 行.
+NOTIC: [8] Undefined index: ad_name C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 374 行.
+NOTIC: [8] Undefined index: company C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 377 行.
+NOTIC: [8] Undefined index: format C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 380 行.
+NOTIC: [8] Undefined index: area C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 383 行.
+NOTIC: [8] Undefined index: place C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 386 行.
+NOTIC: [8] Undefined index: ad_status C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 389 行.
+NOTIC: [8] Undefined index: ad_examine C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 392 行.
+NOTIC: [8] Undefined index: ad_pay C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 395 行.
+NOTIC: [8] Undefined variable: advert C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 446 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T15:23:03+08:00 ] 182.137.15.216 /meidian/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 178 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 179 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 186 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 195 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 203 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 204 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 211 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 218 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 228 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 236 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 237 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 244 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 254 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 263 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 279 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 287 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 288 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 304 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 312 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 313 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 320 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T15:23:12+08:00 ] 182.137.15.216 /meidian/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 178 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 179 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 186 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 195 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 203 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 204 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 211 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 218 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 228 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 236 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 237 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 244 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 254 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 263 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 279 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 287 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 288 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 304 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 312 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 313 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 320 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003906s ]
+
+[ 2017-02-08T15:23:29+08:00 ] 182.137.15.216 /meidian/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-02-08T15:23:37+08:00 ] 182.137.15.216 /meidian/index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 178 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 179 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 186 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 195 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 203 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 204 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 211 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 218 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 228 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 236 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 237 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 244 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 254 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 263 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 279 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 287 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 288 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 304 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 312 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 313 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 320 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-02-08T15:24:22+08:00 ] 182.137.15.216 /meidian/admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-02-08T15:24:28+08:00 ] 182.137.15.216 /meidian/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 178 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 179 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 186 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 195 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 203 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 204 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 211 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 218 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 228 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 236 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 237 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 244 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 254 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 263 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 279 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 287 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 288 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 304 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 312 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 313 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 320 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-02-08T15:25:13+08:00 ] 182.137.15.216 /meidian/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T15:25:18+08:00 ] 182.137.15.216 /meidian/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001954s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 170 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 178 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 179 行.
+NOTIC: [8] Undefined variable: advert_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 186 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 195 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 203 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 204 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 211 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 218 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 228 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 236 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 237 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 244 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 254 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 263 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 270 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 279 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 287 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 288 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 295 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 304 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 312 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 313 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 320 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-02-08T15:25:32+08:00 ] 182.137.15.216 /meidian/Admin/index/getAdvert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: format C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 85 行.
+NOTIC: [8] Undefined index: format C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 87 行.
+NOTIC: [8] Undefined index: area C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 90 行.
+SQL: SELECT * FROM `md_advert`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_user` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: index_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 149 行.
+NOTIC: [8] Undefined index: add C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 165 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 181 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 189 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 190 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 197 行.
+NOTIC: [8] Undefined variable: user_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 204 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 214 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 222 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 223 行.
+NOTIC: [8] Undefined variable: file_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 230 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 240 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 248 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 249 行.
+NOTIC: [8] Undefined variable: company_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 256 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 265 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 273 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 274 行.
+NOTIC: [8] Undefined variable: barbershop_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 281 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 290 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 298 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 299 行.
+NOTIC: [8] Undefined variable: product_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 306 行.
+NOTIC: [8] Undefined variable: place_style C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 315 行.
+NOTIC: [8] Undefined index: ad_name C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 374 行.
+NOTIC: [8] Undefined index: company C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 377 行.
+NOTIC: [8] Undefined index: format C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 380 行.
+NOTIC: [8] Undefined index: area C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 383 行.
+NOTIC: [8] Undefined index: place C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 386 行.
+NOTIC: [8] Undefined index: ad_status C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 389 行.
+NOTIC: [8] Undefined index: ad_examine C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 392 行.
+NOTIC: [8] Undefined index: ad_pay C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 395 行.
+NOTIC: [8] Undefined variable: advert C:\wamp\www\meidian\Application\Runtime\Cache\Admin\e7d209c4a5760b5e785e7fd6df28bf0d.php 第 446 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2017-02-08T15:34:04+08:00 ] 182.137.15.216 /meidian/index.php/Admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = '123' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0010s ]
+SQL: UPDATE `md_user` SET `logintime`='2017-02-08 15:34:04',`lastloginip`='182.137.15.216' WHERE ( id='1' ) [ RunTime:0.0010s ]
+
+[ 2017-02-08T15:34:59+08:00 ] 182.137.15.216 /meidian/Admin/index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-08T15:35:09+08:00 ] 182.137.15.216 /meidian/Admin/index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-08T15:35:20+08:00 ] 182.137.15.216 /meidian/Admin/index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-08T19:59:41+08:00 ] 139.205.180.196 /meidian/index.php/admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = '123' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0000s ]
+SQL: UPDATE `md_user` SET `logintime`='2017-02-08 19:59:41',`lastloginip`='139.205.180.196' WHERE ( id='1' ) [ RunTime:0.0010s ]
+
+[ 2017-02-08T20:01:21+08:00 ] 139.205.180.196 /meidian/index.php/Admin/User/addUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+SQL: INSERT INTO `md_user` (`username`,`password`) VALUES ('dy','202cb962ac59075b964b07152d234b70') [ RunTime:0.0000s ]
+

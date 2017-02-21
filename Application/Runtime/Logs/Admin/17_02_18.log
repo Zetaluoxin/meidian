@@ -1,0 +1,96 @@
+[ 2017-02-18T00:20:10+08:00 ] ::1 /meidian/index.php/admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0013s ]
+SQL: UPDATE `md_user` SET `logintime`='2017-02-18 00:20:10',`lastloginip`='0.0.0.0' WHERE ( id='1' ) [ RunTime:0.0019s ]
+
+[ 2017-02-18T00:20:17+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0051s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0051s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_group` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `md_auth_group` WHERE ( id=8 )  [ RunTime:0.0003s ]
+
+[ 2017-02-18T00:20:23+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0044s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-02-18T00:20:23+08:00 ] ::1 /meidian/index.php/Admin/Product/productProvince
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0046s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0045s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `md_product` WHERE `province_id` = 1  [ RunTime:0.0006s ]
+
+[ 2017-02-18T00:24:30+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0047s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0049s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-02-18T00:24:32+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0044s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0042s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0004s ]
+
+[ 2017-02-18T00:24:34+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002551s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0039s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0044s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=3 )  [ RunTime:0.0005s ]
+
+[ 2017-02-18T00:24:35+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0038s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0045s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `md_barbershop` WHERE `barbershop_street` = 2  [ RunTime:0.0003s ]
+

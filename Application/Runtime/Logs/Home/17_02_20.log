@@ -1,0 +1,12 @@
+[ 2017-02-20T14:02:04+08:00 ] ::1 /meidian/index.php/home/advert/getAdvert
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY ad_time asc LIMIT 3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `md_advert` WHERE ( barbershop_id= ) ORDER BY ad_time asc LIMIT 3  
+
+[ 2017-02-20T14:03:24+08:00 ] ::1 /meidian/index.php/home/advert/getAdvert
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY ad_time asc LIMIT 3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `md_advert` WHERE ( barbershop_id= ) ORDER BY ad_time asc LIMIT 3  
+
+[ 2017-02-20T14:04:33+08:00 ] ::1 /meidian/index.php/home/advert/getAdvert
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY ad_time asc LIMIT 3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `md_advert` WHERE ( barbershop_id= ) ORDER BY ad_time asc LIMIT 3  
+

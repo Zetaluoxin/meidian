@@ -1,0 +1,67 @@
+[ 2016-12-25T00:52:45+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0007s ]
+
+[ 2016-12-25T00:52:47+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-25T01:27:30+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-25T01:27:32+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0005s ]
+
+[ 2016-12-25T01:27:45+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0045s ]
+ERR: 1054:Champ '请选择城市' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `md_district` WHERE ( city_id=请选择城市 ) 
+ERR: 1054:Champ '请选择城市' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `md_district` WHERE ( city_id=请选择城市 ) 
+
+[ 2016-12-25T01:28:16+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_city`  [ RunTime:0.0003s ]
+
+[ 2016-12-25T01:35:50+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-25T01:35:52+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+

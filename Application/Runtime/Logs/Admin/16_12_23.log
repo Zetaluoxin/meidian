@@ -1,0 +1,103 @@
+[ 2016-12-23T09:51:43+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='1' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-23T09:51:47+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-23T09:51:50+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 6  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='6' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-23T10:52:08+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0036s ]
+SQL: INSERT INTO `md_company` (`com_name`,`com_contact`,`user_id`) VALUES ('欣欣科技','哈呵呵','1') [ RunTime:0.0013s ]
+
+[ 2016-12-23T13:21:40+08:00 ] ::1 /meidian/index.php/Admin/Index/updateAdvert?id=1&ad_name=%E4%BC%9A%E8%AE%A1%E5%B8%88%E5%AF%B9%E6%96%B9%E5%B0%B1%E6%98%AF%E6%89%93%E5%BC%80&ad_company_id=1&ad_area_id=1&ad_place_id=0&ad_putnum=100
+ERR: Think\Controller:getProduct方法不存在！
+
+[ 2016-12-23T14:47:53+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0035s ]
+SQL: UPDATE `md_advert` SET `ad_name`='可视对讲回复',`ad_text`='',`img_id`='1',`video_id`='0',`ad_putnum`='0',`ad_company_id`='1',`ad_area_id`='1',`ad_place_id`='1' WHERE ( id='2' ) [ RunTime:0.0034s ]
+
+[ 2016-12-23T15:06:42+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0041s ]
+SQL: UPDATE `md_advert` SET `ad_name`='可视对讲回复',`ad_text`='',`img_id`='1',`video_id`='0',`ad_putnum`='200',`ad_company_id`='1',`ad_area_id`='1',`ad_place_id`='1' WHERE ( id='2' ) [ RunTime:0.0007s ]
+
+[ 2016-12-23T15:09:49+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: UPDATE `md_advert` SET `ad_name`='可视对讲回复',`ad_text`='肯定会说酷库',`img_id`='1',`video_id`='0',`ad_putnum`='200',`ad_company_id`='1',`ad_area_id`='1',`ad_place_id`='1' WHERE ( id='2' ) [ RunTime:0.0004s ]
+
+[ 2016-12-23T17:22:45+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0056s ]
+SQL: INSERT INTO `md_barbershop` (`user_id`,`barbershop_name`,`barbershop_address`) VALUES ('1','极寒冻龟撒娇和','0') [ RunTime:0.0004s ]
+
+[ 2016-12-23T17:23:32+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0046s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('1','单面机','会计师电话费看似简单','开的服活动开始计划') [ RunTime:0.0008s ]
+
+[ 2016-12-23T17:23:39+08:00 ] ::1 /meidian/index.php/Admin/Product/updateProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0043s ]
+SQL: UPDATE `md_product` SET `barbershop_id`='1',`product_fix`='0' WHERE ( id='1' or product_maccode='' ) [ RunTime:0.0008s ]
+
+[ 2016-12-23T17:23:46+08:00 ] ::1 /meidian/index.php/Admin/Product/updateProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0034s ]
+SQL: UPDATE `md_product` SET `barbershop_id`='1',`product_fix`='1' WHERE ( id='1' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-23T17:23:50+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='1' or product_maccode='' ) [ RunTime:0.0002s ]
+

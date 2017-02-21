@@ -1,0 +1,421 @@
+[ 2016-12-20T13:25:58+08:00 ] ::1 /meidian/index.php/Admin/Index/addAdvert
+ERR: SQLSTATE[HY000] [1049] Base 'md' inconnue
+
+[ 2016-12-20T14:23:29+08:00 ] ::1 /meidian/index.php/Admin/Index/assets/css/colorbox.css
+ERR: 非法操作:assets
+
+[ 2016-12-20T15:21:43+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+
+[ 2016-12-20T15:25:12+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-12-20T15:26:32+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T15:26:48+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-12-20T15:29:05+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\meidian\Application\Admin\Controller\FileController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-20T15:29:32+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-12-20T15:30:46+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\meidian\Application\Admin\Controller\FileController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-12-20T15:31:13+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-12-20T15:35:01+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-12-20T15:35:26+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2016-12-20T15:35:38+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\meidian\Application\Admin\Controller\FileController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-12-20T15:40:52+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\wamp\www\meidian\Application\Admin\Controller\FileController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-12-20T15:43:36+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2016-12-20T15:44:44+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2016-12-20T15:45:24+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-12-20T15:45:56+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2016-12-20T15:46:10+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-12-20T15:46:29+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-12-20T15:47:04+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-12-20T15:48:20+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-12-20T15:49:29+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-12-20T15:50:07+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-12-20T15:50:55+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-12-20T15:51:47+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002461s ]
+
+[ 2016-12-20T15:52:57+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8] Undefined index: video C:\wamp\www\meidian\Application\Admin\Controller\FileController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-12-20T15:53:07+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-12-20T15:54:01+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Undefined variable: data C:\wamp\www\meidian\Application\Admin\Controller\FileController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-12-20T15:55:01+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-12-20T16:42:47+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-12-20T16:43:06+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-12-20T16:46:26+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T16:47:44+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0067s ]
+ERR: 1146:La table 'md.md_fileurl' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_fileurl`
+ERR: 1146:La table 'md.md_fileurl' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_fileurl`
+
+[ 2016-12-20T16:48:07+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T16:48:31+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0036s ]
+SQL: INSERT INTO `md_file` (`small_img`,`big_img`) VALUES ('20161220/thumb1482223578_966281284.jpg','20161220/1482223578_966281284.jpg') [ RunTime:0.0004s ]
+SQL: INSERT INTO `md_file` (`small_img`,`big_img`) VALUES ('20161220/thumb1482223581_1669165646.jpg','20161220/1482223581_1669165646.jpg') [ RunTime:0.0003s ]
+SQL: INSERT INTO `md_file` (`small_img`,`big_img`) VALUES ('20161220/thumb1482223584_1992018078.jpg','20161220/1482223584_1992018078.jpg') [ RunTime:0.0003s ]
+
+[ 2016-12-20T16:48:59+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0056s ]
+SQL: INSERT INTO `md_file` (`small_img`,`big_img`) VALUES ('20161220/thumb1482223736_231250966.jpg','20161220/1482223736_231250966.jpg') [ RunTime:0.0004s ]
+SQL: INSERT INTO `md_file` (`small_img`,`big_img`) VALUES ('20161220/thumb1482223738_316590052.jpg','20161220/1482223738_316590052.jpg') [ RunTime:0.0007s ]
+
+[ 2016-12-20T16:49:08+08:00 ] ::1 /meidian/index.php/Admin/File/addFile
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0043s ]
+SQL: INSERT INTO `md_file` (`small_img`,`big_img`) VALUES ('20161220/thumb1482223748_2000278494.jpg','20161220/1482223748_2000278494.jpg') [ RunTime:0.0003s ]
+
+[ 2016-12-20T21:08:18+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0208s ]
+ERR: 1146:La table 'md.md_file_img' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file_img`
+ERR: 1146:La table 'md.md_file_img' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file_img`
+
+[ 2016-12-20T21:09:22+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+SQL: SHOW COLUMNS FROM `md_file` [ RunTime:0.0047s ]
+ERR: 1146:La table 'md.md_file_img' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file_img`
+ERR: 1146:La table 'md.md_file_img' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file_img`
+
+[ 2016-12-20T21:47:21+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T21:48:16+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T21:54:16+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T21:54:20+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T21:54:54+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+ERR: 1146:La table 'md.md_file' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_file`
+
+[ 2016-12-20T21:58:30+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0041s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482239285_1921988340.jpg','20161220/1482239285_1921988340.jpg','mmexport1481890348662.jpg','161984') [ RunTime:0.0007s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482239291_475318200.jpg','20161220/1482239291_475318200.jpg','mmexport1481890332796.jpg','69684') [ RunTime:0.0006s ]
+
+[ 2016-12-20T22:00:14+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2016-12-20T22:01:48+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0069s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482242407_1870012600.jpg','20161220/1482242407_1870012600.jpg','mmexport1481890332796.jpg','69684') [ RunTime:0.0005s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482242409_1290899950.jpg','20161220/1482242409_1290899950.jpg','mmexport1481890348662.jpg','161984') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-12-20T22:15:29+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0042s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482242407_1870012600.jpg','20161220/1482242407_1870012600.jpg','mmexport1481890332796.jpg','69684') [ RunTime:0.0004s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482242409_1290899950.jpg','20161220/1482242409_1290899950.jpg','mmexport1481890348662.jpg','161984') [ RunTime:0.0003s ]
+
+[ 2016-12-20T23:37:31+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0060s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482248245_437672563.jpg','20161220/1482248245_437672563.jpg','84481_20130116142820494200_1.jpg','137992') [ RunTime:0.0011s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482248248_1562176003.jpg','20161220/1482248248_1562176003.jpg','mmexport1481890348662.jpg','161984') [ RunTime:0.0004s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482248249_7476863.jpg','20161220/1482248249_7476863.jpg','mmexport1481890332796.jpg','69684') [ RunTime:0.0003s ]
+
+[ 2016-12-20T23:37:42+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0062s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482248257_1390180430.jpg','20161220/1482248257_1390180430.jpg','mmexport1481890332796.jpg','69684') [ RunTime:0.0003s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482248259_1530578055.jpg','20161220/1482248259_1530578055.jpg','84481_20130116142820494200_1.jpg','137992') [ RunTime:0.0003s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161220/thumb1482248260_1723796745.jpg','20161220/1482248260_1723796745.jpg','mmexport1481890348662.jpg','161984') [ RunTime:0.0002s ]
+

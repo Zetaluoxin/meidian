@@ -1,0 +1,29 @@
+[ 2017-01-17T11:08:49+08:00 ] 127.0.0.1 /admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = 'dy' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=2 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\meidian\Application\Admin\Logic\UserLogic.class.php 第 246 行.
+SQL: UPDATE `md_user` SET `logintime`='2017-01-17 11:08:49',`lastloginip`='127.0.0.1' WHERE ( id='2' ) [ RunTime:0.0077s ]
+
+[ 2017-01-17T11:09:32+08:00 ] 127.0.0.1 /Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `md_auth_group` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_auth_group` WHERE ( id=1 )  [ RunTime:0.0004s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given C:\wamp\www\meidian\Application\Admin\Logic\UserLogic.class.php 第 230 行.
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: res2 C:\wamp\www\meidian\Application\Admin\Logic\UserLogic.class.php 第 235 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+

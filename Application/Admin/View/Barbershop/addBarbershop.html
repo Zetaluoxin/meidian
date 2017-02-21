@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美点首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/chosen.css">
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/colorbox.css">
+		<link rel="stylesheet" href="__PUBLIC__/css/common.css">
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<include file="Index:nav"/>
+	<div class="main-container" id="main-container">
+		<include file="Index:left"/>
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="#">首页</a>
+					</li>
+
+					<li>
+						<a href="#">店铺管理</a>
+					</li>
+					<li class="active"> 添加店铺 </li>
+				</ul><!-- .breadcrumb -->
+
+				<div class="nav-search" id="nav-search">
+					<form class="form-search">
+						<span class="input-icon">
+							<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+							<i class="icon-search nav-search-icon"></i>
+						</span>
+					</form>
+				</div><!-- #nav-search -->
+			</div>
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						店铺管理
+						<small>
+							<i class="icon-double-angle-right"></i>
+							添加店铺
+						</small>
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="form-horizontal" role="form">
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 店铺名称 </label>
+
+								<div class="col-sm-9">
+									<input type="text" id="form-field-1" placeholder="店铺名称" class="col-xs-10 col-sm-5" name="barbershop_name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 店铺地址 </label>
+
+								<div class="col-sm-9">
+									<div id="place_select">
+										<select class="width-20 " id="form-field-select-3" name="province">
+											<option value="">请选择省份</option>
+											<foreach name="province" item="pro">
+											<option value="<{$pro.id}>"><{$pro.province_name}></option>
+											</foreach>
+										</select>
+										<select class="width-20 " id="form-field-select-1" name="city">
+											<option value="">请选择城市</option>		
+										</select>
+										<select class="width-20 " id="form-field-select-3" name="district">
+											<option value="">请选择区/县</option>
+										</select>
+										<select class="width-20 " id="form-field-select-3" name="street">
+											<option value="">请选择街道/村</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 店主 </label>
+
+								<div class="col-sm-9">
+									<div>
+										<select class="width-80 chosen-select" id="form-field-select-3" data-placeholder="Choose a Country..." style="display: none;" name="user_id">
+											<option value="">&nbsp;</option>
+											<foreach name="user" item="u">
+											<option value="<{$u.id}>"><{$u.username}></option>
+											</foreach>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div><!--表单组-->
+						<div class="clearfix form-actions">
+							<div class="col-md-offset-3 col-md-9">
+								<button class="btn btn-info addbarbershop" type="button">
+									<i class="icon-ok bigger-110"></i>
+									添加
+								</button>
+
+								&nbsp; &nbsp; &nbsp;
+								<button class="btn reset" type="reset">
+									<i class="icon-undo bigger-110"></i>
+									重置
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--page-content-->
+			<include file="Index:setting"/>
+		</div>
+	</div>
+</body>
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/Js/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+		 window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="__PUBLIC__/assets/js/chosen.jquery.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog/layer.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/fun.js"></script>
+		<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+		<script src="__PUBLIC__/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.sparkline.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.resize.min.js"></script>
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+
+		<script type="text/javascript">
+			window.onload = function(){
+				$(".chosen-select").chosen(); 
+				addbarbershop();
+				placesec();
+			}
+
+			function addbarbershop(){
+				$(".addbarbershop").click(function(){
+					var barbershop_name = $("[name=barbershop_name]").val();
+					var user_id = $("[name=user_id]").val();
+					var barbershop_province = $("[name=province]").val();
+			        var barbershop_city = $("[name=city]").val();
+			        var barbershop_district = $("[name=district]").val();
+			        var barbershop_street = $("[name=street]").val();
+					if(barbershop_name == '' || user_id == ''){
+						return dialog.error("请录入完整信息!");
+					}
+					$.ajax({
+						"url":app+"/Admin/Barbershop/addBarbershop",
+						"type":"post",
+						"data":{
+							"barbershop_name":barbershop_name,
+							"user_id":user_id,
+							"barbershop_province":barbershop_province,
+			                "barbershop_city":barbershop_city,
+			                "barbershop_district":barbershop_district,
+			                "barbershop_street":barbershop_street
+						},
+						"success":function(res){
+							if(res.status){
+								return dialog.successconfirm("添加成功");
+							}
+							return dialog.error("添加失败");
+						}
+					});
+				});
+			}
+
+
+		</script>
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</html>

@@ -1,0 +1,341 @@
+[ 2016-12-31T14:46:34+08:00 ] ::1 /meidian/index.php/admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = 'dy' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=2 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\meidian\Application\Admin\Logic\UserLogic.class.php 第 246 行.
+SQL: UPDATE `md_user` SET `logintime`='2016-12-31 14:46:34',`lastloginip`='0.0.0.0' WHERE ( id='2' ) [ RunTime:0.0044s ]
+
+[ 2016-12-31T14:46:48+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0024s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0004s ]
+
+[ 2016-12-31T14:46:48+08:00 ] ::1 /meidian/index.php/Admin/Product/productProvince
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0031s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_product`  [ RunTime:0.0003s ]
+
+[ 2016-12-31T14:46:49+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0024s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0023s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-31T14:46:49+08:00 ] ::1 /meidian/index.php/Admin/Product/productCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0026s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0036s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `md_product`  [ RunTime:0.0003s ]
+
+[ 2016-12-31T14:46:51+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0022s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0031s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-31T14:46:51+08:00 ] ::1 /meidian/index.php/Admin/Product/productCity
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0059s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0028s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_product`  [ RunTime:0.0003s ]
+
+[ 2016-12-31T14:47:49+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0054s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0041s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `md_advert` WHERE `img_id` = 11  [ RunTime:0.0005s ]
+SQL: UPDATE `md_file_img` SET `status`='未上线' WHERE ( id='11' ) [ RunTime:0.0009s ]
+SQL: UPDATE `md_file_img` SET `status`='已上线' WHERE ( id='10' ) [ RunTime:0.0004s ]
+SQL: UPDATE `md_advert` SET `ad_name`='茉莉花开',`ad_text`='杨洋郑爽',`img_id`='10',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='2',`barbershop_id`='1',`ad_district_id`='3' WHERE ( id='2' ) [ RunTime:0.0008s ]
+
+[ 2016-12-31T14:48:06+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0071s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0044s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `md_advert` WHERE `img_id` = 10  [ RunTime:0.0007s ]
+SQL: UPDATE `md_file_img` SET `status`='已上线' WHERE ( id='11' ) [ RunTime:0.0019s ]
+SQL: UPDATE `md_advert` SET `ad_name`='茉莉花开',`ad_text`='杨洋郑爽',`img_id`='11',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='2',`barbershop_id`='1',`ad_district_id`='3' WHERE ( id='2' ) [ RunTime:0.0005s ]
+
+[ 2016-12-31T14:48:49+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 4  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `md_advert` WHERE `video_id` = 6  [ RunTime:0.0003s ]
+SQL: UPDATE `md_file_video` SET `status`='已上线' WHERE ( id='8' ) [ RunTime:0.0006s ]
+SQL: UPDATE `md_advert` SET `ad_name`='今天你美发了吗',`ad_text`='哈哈哈哈',`img_id`='0',`video_id`='8',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='3',`barbershop_id`='2',`ad_district_id`='1' WHERE ( id='4' ) [ RunTime:0.0007s ]
+
+[ 2016-12-31T14:49:05+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0069s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 5  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `md_advert` WHERE `video_id` = 8  [ RunTime:0.0004s ]
+SQL: UPDATE `md_file_video` SET `status`='已上线' WHERE ( id='9' ) [ RunTime:0.0013s ]
+SQL: UPDATE `md_advert` SET `ad_name`='欣欣美发专用',`ad_text`='哈哈哈',`img_id`='0',`video_id`='9',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='2',`barbershop_id`='1',`ad_district_id`='3' WHERE ( id='5' ) [ RunTime:0.0004s ]
+
+[ 2016-12-31T14:49:24+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0052s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 5  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `md_advert` WHERE `video_id` = 9  [ RunTime:0.0004s ]
+SQL: UPDATE `md_file_video` SET `status`='未上线' WHERE ( id='9' ) [ RunTime:0.0003s ]
+SQL: UPDATE `md_file_video` SET `status`='已上线' WHERE ( id='5' ) [ RunTime:0.0003s ]
+SQL: UPDATE `md_advert` SET `ad_name`='欣欣美发专用',`ad_text`='哈哈哈',`img_id`='0',`video_id`='5',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='2',`barbershop_id`='1',`ad_district_id`='3' WHERE ( id='5' ) [ RunTime:0.0003s ]
+
+[ 2016-12-31T14:49:57+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0031s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0041s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `md_advert` WHERE `video_id` = 6  [ RunTime:0.0003s ]
+SQL: UPDATE `md_file_video` SET `status`='已上线' WHERE ( id='5' ) [ RunTime:0.0008s ]
+SQL: UPDATE `md_advert` SET `ad_name`='今天你美发了吗',`ad_text`='欣欣美发',`img_id`='0',`video_id`='5',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='1',`barbershop_id`='1',`ad_district_id`='2' WHERE ( id='1' ) [ RunTime:0.0008s ]
+
+[ 2016-12-31T14:50:19+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0023s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `md_advert` WHERE `video_id` = 5  [ RunTime:0.0012s ]
+SQL: UPDATE `md_file_video` SET `status`='已上线' WHERE ( id='9' ) [ RunTime:0.0020s ]
+SQL: UPDATE `md_advert` SET `ad_name`='今天你美发了吗',`ad_text`='欣欣美发',`img_id`='0',`video_id`='9',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='1',`barbershop_id`='1',`ad_district_id`='2' WHERE ( id='1' ) [ RunTime:0.0009s ]
+
+[ 2016-12-31T15:49:20+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0045s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0063s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 6  [ RunTime:0.0008s ]
+SQL: UPDATE `md_advert` SET `ad_name`='测测测测',`ad_text`='试试',`img_id`='10',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='2',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='3',`barbershop_id`='2',`ad_district_id`='1' WHERE ( id='6' ) [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: reg C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 217 行.
+NOTIC: [8] Undefined variable: reg C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 218 行.
+
+[ 2016-12-31T15:49:27+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0047s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 6  [ RunTime:0.0012s ]
+SQL: UPDATE `md_advert` SET `ad_name`='测测测测',`ad_text`='试试',`img_id`='10',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='2',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='3',`barbershop_id`='2',`ad_district_id`='1' WHERE ( id='6' ) [ RunTime:0.0003s ]
+
+[ 2016-12-31T15:50:04+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0063s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0026s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 6  [ RunTime:0.0005s ]
+SQL: UPDATE `md_advert` SET `ad_name`='测测测测',`ad_text`='试试',`img_id`='10',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='3',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='3',`barbershop_id`='2',`ad_district_id`='1' WHERE ( id='6' ) [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: reg C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 217 行.
+NOTIC: [8] Undefined variable: reg C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 218 行.
+
+[ 2016-12-31T15:52:24+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0079s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0058s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 6  [ RunTime:0.0008s ]
+SQL: UPDATE `md_advert` SET `ad_name`='测测测测',`ad_text`='试试',`img_id`='10',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='2',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='3',`barbershop_id`='2',`ad_district_id`='1' WHERE ( id='6' ) [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: reg C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 217 行.
+
+[ 2016-12-31T15:52:28+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0048s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0058s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 6  [ RunTime:0.0007s ]
+SQL: UPDATE `md_advert` SET `ad_name`='测测测测',`ad_text`='试试',`img_id`='10',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='3',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='3',`barbershop_id`='2',`ad_district_id`='1' WHERE ( id='6' ) [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: reg C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 217 行.
+
+[ 2016-12-31T15:54:18+08:00 ] ::1 /meidian/index.php/Admin/Advert/updateAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0026s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0035s ]
+SQL: UPDATE `md_advert` SET `ad_status`='已上架',`ad_examine`='未审核',`ad_pay`='未付费' WHERE ( id='4' ) [ RunTime:0.0002s ]
+
+[ 2016-12-31T16:01:43+08:00 ] ::1 /meidian/index.php/Admin/User/addUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004079s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0041s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0029s ]
+SQL: UPDATE `md_user` SET `nickname`='lsg',`names`='罗鑫',`qq`='531014023',`postalcode`='637325',`telephonenum`='15228164421' WHERE ( id=1 ) [ RunTime:0.0004s ]
+
+[ 2016-12-31T20:18:12+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0062s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0056s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `md_advert` WHERE `id` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `md_advert` WHERE `img_id` = 11  [ RunTime:0.0003s ]
+SQL: UPDATE `md_file_img` SET `status`='未上线' WHERE ( id='11' ) [ RunTime:0.0005s ]
+SQL: UPDATE `md_file_img` SET `status`='已上线' WHERE ( id='10' ) [ RunTime:0.0006s ]
+SQL: UPDATE `md_advert` SET `ad_name`='茉莉花开',`ad_text`='杨洋郑爽',`img_id`='10',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='2',`barbershop_id`='1',`ad_district_id`='3' WHERE ( id='2' ) [ RunTime:0.0005s ]
+
+[ 2016-12-31T20:56:59+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0063s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0042s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','8','9','10') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='1' or product_maccode='' ) [ RunTime:0.0002s ]
+

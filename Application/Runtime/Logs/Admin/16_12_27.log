@@ -1,0 +1,923 @@
+[ 2016-12-27T09:15:56+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0040s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:20:47+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0031s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:22:30+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0034s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:23:32+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:23:36+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0044s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:23:55+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0035s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:24:01+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0040s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:25:00+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0050s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:25:03+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0045s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:25:30+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:25:33+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0037s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:26:03+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:26:06+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0033s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:26:40+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0046s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:26:44+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0032s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:29:11+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0039s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:29:13+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0062s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:29:29+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0043s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:29:31+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0038s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:31:48+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0034s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:32:20+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0038s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:32:23+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0041s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:32:46+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0061s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:32:50+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0067s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T10:34:51+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T10:34:55+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0054s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T11:12:04+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0052s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T11:12:11+08:00 ] ::1 /meidian/index.php/Admin/User/authUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0031s ]
+ERR: 非法操作:authUpdate
+
+[ 2016-12-27T12:54:25+08:00 ] ::1 /meidian/index.php/Admin/User/authQuery
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0040s ]
+ERR: 非法操作:authQuery
+
+[ 2016-12-27T13:03:40+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0006s ]
+
+[ 2016-12-27T13:03:41+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:03:42+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:03:44+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:03:45+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0044s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T13:04:56+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:04:57+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:04:59+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=3 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:05:00+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0041s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T13:05:12+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0045s ]
+SQL: INSERT INTO `md_barbershop` (`user_id`,`barbershop_name`,`barbershop_province`,`barbershop_city`,`barbershop_district`,`barbershop_street`) VALUES ('1','美美美发','1','2','3','2') [ RunTime:0.0056s ]
+
+[ 2016-12-27T13:24:39+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T13:24:40+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:24:42+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=3 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:24:43+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0042s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T13:24:46+08:00 ] ::1 /meidian/index.php/Admin/Company/updateCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: thisk C:\wamp\www\meidian\Application\Admin\Logic\CompanyLogic.class.php 第 61 行.
+
+[ 2016-12-27T13:25:24+08:00 ] ::1 /meidian/index.php/Admin/Company/updateCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: thisk C:\wamp\www\meidian\Application\Admin\Logic\CompanyLogic.class.php 第 61 行.
+
+[ 2016-12-27T13:26:10+08:00 ] ::1 /meidian/index.php/Admin/Company/updateCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0044s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_company` SET `com_name`='哈哈' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_company` SET `com_name`='哈哈' WHERE ( id= )
+
+[ 2016-12-27T13:29:55+08:00 ] ::1 /meidian/index.php/Admin/Company/updateCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0034s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_company` SET `com_name`='哈哈' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_company` SET `com_name`='哈哈' WHERE ( id= )
+
+[ 2016-12-27T13:30:19+08:00 ] ::1 /meidian/index.php/Admin/Company/updateCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0035s ]
+SQL: UPDATE `md_company` SET `com_name`='哈哈' WHERE ( id=3 ) [ RunTime:0.0002s ]
+
+[ 2016-12-27T13:33:46+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:33:47+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:33:50+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T13:33:51+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0048s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T13:33:53+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('0','单面机','00-11-22-33','20161227') [ RunTime:0.0010s ]
+
+[ 2016-12-27T13:35:26+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 1  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='1' or product_maccode='' ) [ RunTime:0.0001s ]
+
+[ 2016-12-27T13:35:33+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 1  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='1' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-27T14:15:46+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0006s ]
+
+[ 2016-12-27T14:15:47+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T14:15:48+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=2 )  [ RunTime:0.0004s ]
+
+[ 2016-12-27T14:15:49+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0038s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T15:05:24+08:00 ] ::1 /meidian/index.php/Admin/User/updateUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: user_id C:\wamp\www\meidian\Application\Runtime\Cache\Admin\f0ef0b7d25dd18b6a9ee839e51411822.php 第 586 行.
+NOTIC: [8] Undefined variable: province C:\wamp\www\meidian\Application\Runtime\Cache\Admin\f0ef0b7d25dd18b6a9ee839e51411822.php 第 629 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2016-12-27T15:06:51+08:00 ] ::1 /meidian/index.php/Admin/User/addUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0035s ]
+SQL: UPDATE `md_user` SET `nickname`='',`names`='杜勇',`qq`='0',`postalcode`='0',`telephonenum`='0' WHERE ( id=1 ) [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:08:59+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T15:09:01+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T15:09:02+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T15:09:04+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0052s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T15:09:06+08:00 ] ::1 /meidian/index.php/Admin/User/addUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0040s ]
+SQL: UPDATE `md_user` SET `nickname`='dy',`names`='杜勇',`qq`='531014023',`postalcode`='637325',`telephonenum`='2147483647' WHERE ( id=1 ) [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:19:57+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T15:19:58+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:20:00+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=3 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T15:20:01+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0030s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T15:20:04+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 62 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_text`,`ad_company_id`,`ad_area_id`,`ad_province_id`,`ad_city_id`,`ad_street_id`,`barbershop_id`,`ad_district_id`,`ad_putnum`,`ad_time`) VALUES ('1','唯美20秒','哈哈哈哈哈哈哈哈哈哈','1','0','1','2','2','0','3','100','2016-12-27 15:20:04') [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:23:03+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T15:23:05+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T15:23:06+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=2 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T15:23:08+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T15:23:10+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0053s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T15:23:12+08:00 ] ::1 /meidian/index.php/Admin/User/addUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0035s ]
+SQL: UPDATE `md_user` SET `nickname`='dy',`names`='杜勇',`qq`='531014023',`postalcode`='637325',`telephonenum`='18380500512',`province_id`='1',`city_id`='2',`district_id`='1',`street_id`='3' WHERE ( id=1 ) [ RunTime:0.0007s ]
+
+[ 2016-12-27T15:29:35+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0040s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161227/thumb1482823774_651106035.jpg','20161227/1482823774_651106035.jpg','ludashi.jpg','101888') [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:29:51+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T15:29:52+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:29:53+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T15:29:55+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0037s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T15:29:57+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0042s ]
+SQL: UPDATE `md_advert` SET `ad_name`='唯美20秒',`ad_text`='哈哈哈哈哈哈哈哈哈哈																				',`img_id`='1',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='0',`barbershop_id`='0',`ad_district_id`='1' WHERE ( id='1' ) [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:43:00+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0047s ]
+SQL: UPDATE `md_advert` SET `ad_name`='唯美20秒',`ad_text`='哈哈哈哈哈哈哈哈哈哈																														',`img_id`='0',`video_id`='0',`ad_putnum`='0',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='0',`ad_city_id`='0',`ad_street_id`='0',`barbershop_id`='0',`ad_district_id`='0' WHERE ( id='1' ) [ RunTime:0.0004s ]
+
+[ 2016-12-27T15:43:21+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0039s ]
+SQL: UPDATE `md_advert` SET `ad_name`='唯美20秒',`ad_text`='哈哈哈哈哈哈哈哈哈哈																																																		',`img_id`='1',`video_id`='0',`ad_putnum`='0',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='0',`ad_city_id`='0',`ad_street_id`='0',`barbershop_id`='0',`ad_district_id`='0' WHERE ( id='1' ) [ RunTime:0.0008s ]
+
+[ 2016-12-27T16:23:47+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T16:23:48+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=1 )  [ RunTime:0.0004s ]
+
+[ 2016-12-27T16:23:53+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T16:23:56+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `md_city`  [ RunTime:0.0003s ]
+
+[ 2016-12-27T16:38:55+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `md_city`  [ RunTime:0.0003s ]
+
+[ 2016-12-27T16:39:00+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T16:39:02+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T16:39:03+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T16:39:04+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0040s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T16:39:06+08:00 ] ::1 /meidian/index.php/Admin/Company/updateCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0044s ]
+SQL: UPDATE `md_company` SET `com_name`='呵呵',`province_id`='1',`city_id`='2',`district_id`='1',`street_id`='3',`barbershop_id`='0' WHERE ( id=2 ) [ RunTime:0.0005s ]
+
+[ 2016-12-27T17:05:02+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T17:05:04+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T17:05:05+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=3 )  [ RunTime:0.0005s ]
+
+[ 2016-12-27T17:05:07+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0048s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T17:05:08+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0046s ]
+SQL: UPDATE `md_advert` SET `ad_name`='唯美20秒',`ad_text`='哈哈哈哈哈哈哈哈哈哈																																																												',`img_id`='1',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='0',`barbershop_id`='0',`ad_district_id`='3' WHERE ( id='1' ) [ RunTime:0.0006s ]
+
+[ 2016-12-27T17:14:30+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0002s ]
+
+[ 2016-12-27T17:14:31+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0006s ]
+
+[ 2016-12-27T17:14:34+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=3 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T17:14:36+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T17:14:37+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0051s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T17:14:39+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 62 行.
+NOTIC: [8] Undefined index: validate C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\meidian\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_text`,`ad_company_id`,`ad_area_id`,`ad_province_id`,`ad_city_id`,`ad_street_id`,`barbershop_id`,`ad_district_id`,`ad_putnum`,`ad_time`) VALUES ('1','美丽20秒','欣欣美发专用','1','0','1','2','3','0','1','100','2016-12-27 17:14:39') [ RunTime:0.0004s ]
+
+[ 2016-12-27T17:15:17+08:00 ] ::1 /meidian/index.php/Admin/File/addImg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0045s ]
+SQL: INSERT INTO `md_file_img` (`small_img`,`big_img`,`img_name`,`img_size`) VALUES ('20161227/thumb1482830116_651060525.jpg','20161227/1482830116_651060525.jpg','ludashi.jpg','101888') [ RunTime:0.0005s ]
+
+[ 2016-12-27T17:15:32+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T17:15:34+08:00 ] ::1 /meidian/index.php/Admin/Place/district
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_district` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `md_district` WHERE ( city_id=2 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T17:15:35+08:00 ] ::1 /meidian/index.php/Admin/Place/street
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_street` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_street` WHERE ( district_id=1 )  [ RunTime:0.0003s ]
+
+[ 2016-12-27T17:15:36+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/queryBarbershopByStreet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0039s ]
+ERR: 非法操作:queryBarbershopByStreet
+
+[ 2016-12-27T17:15:37+08:00 ] ::1 /meidian/index.php/Admin/Advert/saveAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0046s ]
+SQL: UPDATE `md_advert` SET `ad_name`='美丽20秒',`ad_text`='欣欣美发专用																				',`img_id`='1',`video_id`='0',`ad_putnum`='100',`ad_company_id`='1',`ad_area_id`='1',`ad_province_id`='1',`ad_city_id`='2',`ad_street_id`='0',`barbershop_id`='0',`ad_district_id`='1' WHERE ( id='1' ) [ RunTime:0.0005s ]
+

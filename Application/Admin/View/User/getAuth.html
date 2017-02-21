@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美点首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/chosen.css">
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<include file="Index:nav"/>
+	<div class="main-container" id="main-container">
+		<include file="Index:left"/>
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="#">首页</a>
+					</li>
+
+					<li>
+						<a href="#">用户管理</a>
+					</li>
+					<li class="active"> 权限管理 </li>
+				</ul><!-- .breadcrumb -->
+
+				<div class="nav-search" id="nav-search">
+					<form class="form-search">
+						<span class="input-icon">
+							<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+							<i class="icon-search nav-search-icon"></i>
+						</span>
+					</form>
+				</div><!-- #nav-search -->
+			</div>
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						用户管理
+						<small>
+							<i class="icon-double-angle-right"></i>
+							权限管理
+						</small>
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="form-horizontal" role="form">
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 当前用户: </label>
+
+								<div class="col-sm-9" style="padding-top: 5px;">
+									<div>
+										<select class="width-20 chosen-select" id="form-field-select-3" data-placeholder="Choose a Country..." style="display: none;" name="user">
+											<option value="">&nbsp;</option>
+											<foreach name="user" item="u">
+											<option value="<{$u.id}>"><{$u.username}></option>
+											</foreach>
+										</select>
+									</div>
+								</div>
+							</div>
+						<div class="form-horizontal" role="form">
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户管理 </label>
+
+								<div class="col-sm-9">
+									<div class="checkbox">
+										<label name="1">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 首页</span>
+										</label>
+										<label name="4">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 添加用户</span>
+										</label>
+										<label name="5">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl">用户列表</span>
+										</label>
+										<label name="6">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl">权限查询</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 广告管理 </label>
+
+								<div class="col-sm-9">
+									<div class="checkbox">
+										<label name="2">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 新广告</span>
+										</label>
+										<label name="3">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 广告列表</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 素材管理 </label>
+
+								<div class="col-sm-9">
+									<div class="checkbox">
+										<label name="7">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 素材上传</span>
+										</label>
+										<label name="8">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 查询素材</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 广告主管理 </label>
+
+								<div class="col-sm-9">
+									<div class="checkbox">
+										<label name="9">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 新增广告主</span>
+										</label>
+										<label name="10">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 查询广告主</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 店铺管理 </label>
+
+								<div class="col-sm-9">
+									<div class="checkbox">
+										<label name="11">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 添加店铺</span>
+										</label>
+										<label name="12">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 查询店铺</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 终端管理 </label>
+
+								<div class="col-sm-9">
+									<div class="checkbox">
+										<label name="13">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 添加终端</span>
+										</label>
+										<label name="14">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 查询终端</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 地区添加 </label>
+
+								<div class="col-sm-9">
+									<div class="checkbox">
+										<label name="15">
+											<input name="form-field-checkbox" type="checkbox" class="ace">
+											<span class="lbl"> 添加地区</span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div><!--表单组-->
+						<div class="clearfix form-actions">
+							<div class="col-md-offset-3 col-md-9">
+								<button class="btn btn-info updateAuth" type="button">
+									<i class="icon-ok bigger-110"></i>
+									修改
+								</button>
+
+								&nbsp; &nbsp; &nbsp;
+								<button class="btn reset" type="reset">
+									<i class="icon-undo bigger-110"></i>
+									重置
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<include file="Index:setting"/>
+		</div><!--main-content-->
+	</div>
+</body>
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/Js/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+		 window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="__PUBLIC__/assets/js/chosen.jquery.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog/layer.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/fun.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/vue.js"></script>
+		<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+		<script src="__PUBLIC__/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.sparkline.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.resize.min.js"></script>
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			window.onload = function(){
+				$(".chosen-select").chosen(); 
+				queryAuth();
+				updateAuth();
+				reset();
+			}
+
+
+			function queryAuth(){
+				$("[name=user]").change(function(){
+					var user_id = $("[name=user]").val();
+					if(user_id == ''){return};
+					$("[type=checkbox]").removeAttr("checked");
+					$.ajax({
+						"url":app+"/Admin/User/authQuery",
+						"type":"post",
+						"data":{"uid":user_id},
+						"success":function(res){
+							if(res.status){
+								var auth = res.data[0]['rules'];
+								var arr = auth.split(",");
+								var label = $(".checkbox label");
+								for (var i = 0; i < label.length; i++) {
+									var name = label.eq(i).attr("name");
+									for (var j = 0; j < arr.length; j++) {
+										if(name == arr[j]){
+											label.eq(i).find("[type=checkbox]").prop("checked","true");
+										}
+									}
+								}
+							}
+						}
+					});
+				});
+			}
+
+
+			function change(){
+				$("#form-field-select-3").change(function(){
+					$("[type=checkbox]").attr("checked",false);
+				});
+			}
+
+			function updateAuth(){
+				$(".updateAuth").click(function(){
+					layer.confirm(
+						'请确认修改的权限！',
+						{icon:3,title:'提示'},
+						function(index){
+							var user_id = $("[name=user]").val();
+							var label = $(".checkbox label");
+							var arr = [];
+							for (var i = 0; i < label.length; i++) {
+								var ipt = label.eq(i).find("[type=checkbox]");
+								if(ipt.is(":checked")){
+									arr.push(label.eq(i).attr("name"));
+								}
+							}
+							var str = arr.join(",");
+							// console.log(str);
+							$.ajax({
+								"url":app+"/Admin/User/authUpdateFree",
+								"type":"post",
+								"data":{"uid":user_id,"rules":str},
+								"success":function(res){
+									if(res.status){
+										return dialog.successconfirm("修改成功!");
+									}
+									return dialog.error("修改失败！");
+								}
+							});
+							layer.close(index);
+						}
+					);
+				});
+			}
+
+
+			function reset(){
+				$(".reset").click(function(){
+					// alert("haha");
+					$("[type=checkbox]").removeAttr("checked");
+				});
+			}
+
+		</script>
+		
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</html>

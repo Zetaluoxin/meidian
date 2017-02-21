@@ -1,0 +1,12 @@
+[ 2017-01-09T09:09:30+08:00 ] 127.0.0.1 /admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = 'dy' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=2 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\meidian\Application\Admin\Logic\UserLogic.class.php 第 246 行.
+SQL: UPDATE `md_user` SET `logintime`='2017-01-09 09:09:30',`lastloginip`='127.0.0.1' WHERE ( id='2' ) [ RunTime:0.0045s ]
+

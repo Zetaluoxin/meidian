@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美点首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/chosen.css">
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/colorbox.css">
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<include file="Index:nav"/>
+	<div class="main-container" id="main-container">
+		<include file="Index:left"/>
+		<div class="main-content">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<script type="text/javascript">
+					try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+				</script>
+
+				<ul class="breadcrumb">
+					<li>
+						<i class="icon-home home-icon"></i>
+						<a href="#">首页</a>
+					</li>
+
+					<li>
+						<a href="#">素材管理</a>
+					</li>
+					<li class="active"> 上传素材 </li>
+				</ul><!-- .breadcrumb -->
+
+				<div class="nav-search" id="nav-search">
+					<form class="form-search">
+						<span class="input-icon">
+							<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+							<i class="icon-search nav-search-icon"></i>
+						</span>
+					</form>
+				</div><!-- #nav-search -->
+			</div>
+			<div class="page-content">
+				<div class="page-header">
+					<h1>
+						素材管理
+						<small>
+							<i class="icon-double-angle-right"></i>
+							上传素材
+						</small>
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="form-horizontal" role="form">
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 图片素材 </label>
+
+								<div class="col-sm-9" id="imgFile">
+									<div class="col-xs-12">
+										<input type="file" id="upload_img" multiple="true">
+									</div>
+									<div class="col-xs-12">
+										<ul class="ace-thumbnails"  id="ul_img">
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix form-actions">
+								<div class="col-md-offset-3 col-md-9">
+									<button class="btn btn-info uploadimg" type="button">
+										<i class="icon-ok bigger-110"></i>
+										上传图片
+									</button>
+
+									&nbsp; &nbsp; &nbsp;
+									<button class="btn reset" type="reset">
+										<i class="icon-undo bigger-110"></i>
+										重置
+									</button>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 视频素材 </label>
+
+								<div class="col-sm-9" id="videoFile">
+									<div class="col-xs-12">
+										<input type="file" id="upload_file" multiple="true">
+									</div>
+									<div class="col-xs-12">
+										<ul class="ace-thumbnails"  id="ul_video">
+										</ul>
+									</div>
+									
+
+                        			
+								</div>
+							</div>
+						</div><!--表单组-->
+						<div class="clearfix form-actions">
+							<div class="col-md-offset-3 col-md-9">
+								<button class="btn btn-info uploadvideo" type="button">
+									<i class="icon-ok bigger-110"></i>
+									上传视频
+								</button>
+
+								&nbsp; &nbsp; &nbsp;
+								<button class="btn reset" type="reset">
+									<i class="icon-undo bigger-110"></i>
+									重置
+								</button>
+							</div>
+						</div>
+					</div><!--col-xs-12-->
+				</div><!--row-->
+			</div>
+			<include file="Index:setting"/>
+		</div>
+	</div>
+</body>
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/Js/jquery.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+		 window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="__PUBLIC__/assets/js/chosen.jquery.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog/layer.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/dialog.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/fun.js"></script>
+		<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+		<script src="__PUBLIC__/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="__PUBLIC__/assets/js/jquery.sparkline.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="__PUBLIC__/assets/js/flot/jquery.flot.resize.min.js"></script>
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+
+		<!--自己的js代码引入-->
+		<script src="__PUBLIC__/Js/fun.js"></script>
+		<link rel="stylesheet" href="__PUBLIC__/css/uploadify.css" />
+		<script src="__PUBLIC__/Js/uploadify/jquery.uploadify.min.js"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+				$(".chosen-select").chosen();
+				uploadimg();
+				uploadvideo();
+			}
+			$(function() {
+			    $('#upload_img').uploadify({
+			        'swf'      : public+'/Js/uploadify/uploadify.swf',    //指定上传控件的主体文件,不可更改文件
+			        'uploader' : app+'/Admin/Common/uploadify',    //指定服务器端上传处理文件
+			        'buttonText' : '选择图片上传',
+			        'fileTypeDesc' : 'All Files',
+			        'fileObjName' : 'file',
+			        'fileTypeExts' : '*.gif;*.jpg;*.png;*.jpeg',
+			        'onUploadSuccess' : function(file,data,res){
+			        	//file 包含组件自动生成的信息和上传的图片信息,返回值为obj类型
+			        	//data 上传文件的返回值,
+			        	//res为操作是否成功 返回值为bool类型
+			        	if(res){
+			        		var obj = JSON.parse(data);
+			        		console.log(obj);
+			        		$("#"+file.id).find(".data").html("上传完成!");//修改提示信息
+			        		//讲图片放到页面中并展示
+			        		var li = "<li><img src="+public+'/Uploads/'+obj.data.small_img+" style='width: 200px;height: 200px;' class='img'><input type='hidden' class='small_img' name='thumb' multiple='true' value="+obj.data.small_img+"><input type='hidden' class='big_img' name='big' multiple='true' value="+obj.data.big_img+"><input type='hidden' class='imgname' value="+obj.data.filename+"><input type='hidden' class='imgsize' value="+obj.data.filesize+"></li>";
+			        		$("#ul_img").append(li);
+			        	}else{
+			        		return dialog.error("上传失败");
+			        	}
+			        }
+			        //其他配置项
+			    });
+			     $('#upload_file').uploadify({
+			        'swf'      : public+'/Js/uploadify/uploadify.swf',    //指定上传控件的主体文件,不可更改文件
+			        'uploader' : app+'/Admin/Common/uploadify',    //指定服务器端上传处理文件
+			        'buttonText' : '选择视频上传',
+			        'fileTypeDesc' : 'All Files',
+			        'fileObjName' : 'file',
+			        'fileTypeExts' : '*.mp4;*.mov',
+			        'onUploadSuccess' : function(file,data,res){
+			        	//file 包含组件自动生成的信息和上传的图片信息,返回值为obj类型
+			        	//data 上传文件的返回值,
+			        	//res为操作是否成功 返回值为bool类型
+			        	if(res){
+			        		var obj = JSON.parse(data);
+			        		console.log(obj);
+			        		$("#"+file.id).find(".data").html("上传完成!");//修改提示信息
+			        		//讲视频放到页面中并展示
+			        		var li = "<li><video src="+public+'/Uploads/'+obj.data.ad_url_video+" controls='controls' width='200px' height='100px'></video><input type='hidden' class='video' name='video' value="+obj.data.ad_url_video+"><input type='hidden' class='videoname' value="+obj.data.filename+"><input type='hidden' class='videosize' value="+obj.data.filesize+"></li>";
+		                    $("#ul_video").append(li);
+			        	}else{
+			        		return dialog.error("上传失败");
+			        	}
+			        }
+			        //其他配置项
+			    });
+			});
+			function uploadimg(){
+				$(".uploadimg").click(function(){
+					var small_img = [];
+					var big_img = [];
+					var name = [];
+					var size = [];
+					for(var i = 0;i<$("#ul_img li").length;i++){
+						small_img[i] = $(".small_img").eq(i).val();
+						big_img[i] = $(".big_img").eq(i).val();
+						name[i] = $(".imgname").eq(i).val();
+						size[i] = $(".imgsize").eq(i).val();
+					}
+					if(big_img.length == 0){
+						return dialog.error("上传图片不能为空!");
+					}
+					$.ajax({
+						"url":app+"/Admin/File/addImg",
+						"type":"post",
+						"traditional": true,
+						"dataType":"json",
+						"data":{"small_img":JSON.stringify(small_img),"big_img":JSON.stringify(big_img),"img_name":JSON.stringify(name),"img_size":JSON.stringify(size)},
+						"success":function(res){
+							console.log(res.data);
+							if(res.status){
+								return dialog.successconfirm("上传成功");
+							}
+							return dialog.error("上传失败");
+						}
+					});
+				});
+			}
+
+			function uploadvideo(){
+				$(".uploadvideo").click(function(){
+					var video = [];
+					var name = [];
+					var size = [];
+					for(var i = 0;i<$("#ul_video li").length;i++){
+						video[i] = $(".video").eq(i).val();
+						name[i] = $(".videoname").eq(i).val();
+						size[i] = $(".videosize").eq(i).val();
+					}
+					if(video.length == 0){
+						return dialog.error("上传视频不能为空!");
+					}
+					$.ajax({
+						"url":app+"/Admin/File/addVideo",
+						"type":"post",
+						"traditional": true,
+						"dataType":"json",
+						"data":{"video_url":JSON.stringify(video),"video_name":JSON.stringify(name),"video_size":JSON.stringify(size)},
+						"success":function(res){
+							console.log(res.data);
+							if(res.status){
+								return dialog.successconfirm("上传成功");
+							}
+							return dialog.error("上传失败");
+						}
+					});
+				});
+			}
+		</script>
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</html>

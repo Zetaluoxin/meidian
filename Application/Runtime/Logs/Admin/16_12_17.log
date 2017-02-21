@@ -1,0 +1,120 @@
+[ 2016-12-17T13:33:08+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 51 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','ksdhfk','kjdshfkjsd','0','0','200','2016-12-17 13:33:08') [ RunTime:0.0690s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0260s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('2','0') [ RunTime:0.0020s ]
+
+[ 2016-12-17T13:33:09+08:00 ] ::1 /meidian/index.php/Admin/Index/undefined
+ERR: 非法操作:undefined
+
+[ 2016-12-17T14:23:04+08:00 ] ::1 /meidian/index.php/Admin/Index/Advert
+ERR: 非法操作:Advert
+
+[ 2016-12-17T21:51:37+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 51 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','的积分合适的积分','九点十分','0','0','400','2016-12-17 21:51:37') [ RunTime:0.1350s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.1100s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('3','0') [ RunTime:0.0020s ]
+
+[ 2016-12-17T21:55:25+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 51 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','的积分合适的积分','九点十分','0','0','400','2016-12-17 21:55:25') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0190s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('4','0') [ RunTime:0.0010s ]
+
+[ 2016-12-17T21:56:50+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 51 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','王企鹅','蔷薇','0','0','300','2016-12-17 21:56:50') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0200s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('5','0') [ RunTime:0.0010s ]
+
+[ 2016-12-17T21:56:52+08:00 ] ::1 /meidian/index.php/Admin/Index/undefined
+ERR: 非法操作:undefined
+
+[ 2016-12-17T21:57:28+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 51 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','王企鹅','蔷薇','0','0','300','2016-12-17 21:57:28') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0200s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('6','0') [ RunTime:0.0020s ]
+
+[ 2016-12-17T21:57:29+08:00 ] ::1 /meidian/index.php/Admin/Index/undefined
+ERR: 非法操作:undefined
+
+[ 2016-12-17T21:57:44+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 51 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','王企鹅','蔷薇','0','0','0','2016-12-17 21:57:44') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0180s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('7','0') [ RunTime:0.0010s ]
+
+[ 2016-12-17T21:59:14+08:00 ] ::1 /meidian/index.php/Admin/Index/undefined
+ERR: 非法操作:undefined
+
+[ 2016-12-17T22:00:28+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 53 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_url`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','王企鹅','20161217/1481983225_1686293884.mp3','蔷薇','0','0','0','2016-12-17 22:00:28') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0190s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('8','0') [ RunTime:0.0020s ]
+
+[ 2016-12-17T22:00:30+08:00 ] ::1 /meidian/index.php/Admin/Index/undefined
+ERR: 非法操作:undefined
+
+[ 2016-12-17T22:00:33+08:00 ] ::1 /meidian/index.php/Admin/Index/undefined
+ERR: 非法操作:undefined
+
+[ 2016-12-17T22:01:24+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 53 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_url`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','肯定好看','20161217/1481983277_1416623928.mp3','加快速度','0','0','300','2016-12-17 22:01:24') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0190s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('9','0') [ RunTime:0.0010s ]
+
+[ 2016-12-17T22:11:57+08:00 ] ::1 /meidian/index.php/Admin/Advert/addAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined variable: infos C:\wamp\www\meidian\Application\Admin\Controller\AdvertController.class.php 第 53 行.
+SQL: INSERT INTO `md_advert` (`user_id`,`ad_name`,`ad_url`,`ad_format`,`ad_company_id`,`ad_area_id`,`ad_putnum`,`ad_time`) VALUES ('1','是宽度粉红色的','20161217/1481983911_1050779257.jpg','东方闪电','0','0','300','2016-12-17 22:11:57') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `md_ad_place` [ RunTime:0.0180s ]
+SQL: INSERT INTO `md_ad_place` (`ad_id`,`place_id`) VALUES ('10','0') [ RunTime:0.0020s ]
+

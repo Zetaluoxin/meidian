@@ -1,0 +1,713 @@
+[ 2016-12-22T09:50:34+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\CompanyController.class.php 第 61 行.
+
+[ 2016-12-22T09:51:15+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0035s ]
+SQL: INSERT INTO `md_company` (`com_name`,`com_contact`) VALUES ('联广科技','凯越路1号') [ RunTime:0.0030s ]
+
+[ 2016-12-22T11:07:32+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0062s ]
+SQL: INSERT INTO `md_barbershop` () VALUES () [ RunTime:0.0014s ]
+
+[ 2016-12-22T11:15:05+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0037s ]
+SQL: INSERT INTO `md_barbershop` () VALUES () [ RunTime:0.0002s ]
+
+[ 2016-12-22T11:17:07+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0041s ]
+SQL: INSERT INTO `md_barbershop` () VALUES () [ RunTime:0.0003s ]
+
+[ 2016-12-22T11:18:01+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+
+[ 2016-12-22T11:18:56+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-12-22T11:19:47+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0045s ]
+SQL: INSERT INTO `md_barbershop` (`barbershop_name`,`barbershop_address`) VALUES ('美美','游仙区凯越路1号') [ RunTime:0.0004s ]
+
+[ 2016-12-22T13:28:42+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0038s ]
+SQL: INSERT INTO `md_barbershop` (`barbershop_name`,`barbershop_address`) VALUES ('','') [ RunTime:0.0004s ]
+
+[ 2016-12-22T13:31:12+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0037s ]
+SQL: INSERT INTO `md_barbershop` (`barbershop_name`,`barbershop_address`) VALUES ('','') [ RunTime:0.0005s ]
+
+[ 2016-12-22T13:32:44+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0035s ]
+ERR: 非法操作:addProduct
+
+[ 2016-12-22T13:33:19+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0055s ]
+SQL: INSERT INTO `md_product` () VALUES () [ RunTime:0.0004s ]
+
+[ 2016-12-22T13:35:12+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0034s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('2','挂式机','00-11-22-33','20161222') [ RunTime:0.0004s ]
+
+[ 2016-12-22T14:41:44+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0034s ]
+ERR: 非法操作:getStatus
+
+[ 2016-12-22T14:42:17+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T14:42:57+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T14:43:19+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0005s ]
+
+[ 2016-12-22T14:43:55+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T14:44:22+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T14:45:09+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T14:45:24+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T14:45:41+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T14:45:51+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:09:24+08:00 ] ::1 /meidian/index.php/Admin/Common/is_online?product_maccode=00-11-22-33
+ERR: 非法操作:is_online
+
+[ 2016-12-22T16:25:44+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+
+[ 2016-12-22T16:25:47+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0006s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0005s ]
+
+[ 2016-12-22T16:25:49+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0001s ]
+
+[ 2016-12-22T16:25:51+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:25:54+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:25:55+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0001s ]
+
+[ 2016-12-22T16:30:41+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+
+[ 2016-12-22T16:30:46+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:30:48+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:30:50+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:30:52+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0001s ]
+
+[ 2016-12-22T16:30:54+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:30:59+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:31:05+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0005s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:31:08+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:31:29+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:33:32+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:33:35+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0004s ]
+
+[ 2016-12-22T16:34:04+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0005s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0007s ]
+
+[ 2016-12-22T16:34:13+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+
+[ 2016-12-22T16:34:15+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+NOTIC: [8] Undefined variable: res C:\wamp\www\meidian\Application\Admin\Controller\ProductController.class.php 第 105 行.
+
+[ 2016-12-22T16:34:21+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:34:41+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0006s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:36:52+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0016s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0006s ]
+
+[ 2016-12-22T16:37:00+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:37:05+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:37:07+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:37:09+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:37:26+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:37:54+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:38:05+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:43:43+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0004s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0004s ]
+
+[ 2016-12-22T16:46:47+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:47:08+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:54:09+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:54:24+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T16:54:30+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0002s ]
+
+[ 2016-12-22T16:54:32+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0006s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0007s ]
+
+[ 2016-12-22T17:01:48+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0004s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0009s ]
+
+[ 2016-12-22T17:28:07+08:00 ] ::1 /meidian/index.php/Admin/Advert/updateAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0044s ]
+SQL: UPDATE `md_advert` SET `ad_status`='已上架',`ad_examine`='未审核',`ad_pay`='免费' WHERE ( id='1' ) [ RunTime:0.0006s ]
+
+[ 2016-12-22T19:49:12+08:00 ] ::1 /meidian/index.php/Admin/Product/updateProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0039s ]
+SQL: UPDATE `md_product` SET `barbershop_id`='2',`product_type`='挂式机',`product_maccode`='00-11-22-33',`product_batch`='20161222',`product_status`='',`product_fix`='1' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0005s ]
+
+[ 2016-12-22T19:49:34+08:00 ] ::1 /meidian/index.php/Admin/Product/updateProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0047s ]
+SQL: UPDATE `md_product` SET `barbershop_id`='2',`product_type`='挂式机',`product_maccode`='00-11-22-33',`product_batch`='20161222',`product_status`='',`product_fix`='1' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T19:49:36+08:00 ] ::1 /meidian/index.php/Admin/Product/updateProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0041s ]
+SQL: UPDATE `md_product` SET `barbershop_id`='2',`product_type`='挂式机',`product_maccode`='00-11-22-33',`product_batch`='20161222',`product_status`='',`product_fix`='1' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T19:50:35+08:00 ] ::1 /meidian/index.php/Admin/Product/updateProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0038s ]
+SQL: UPDATE `md_product` SET `barbershop_id`='2',`product_type`='挂式机',`product_maccode`='00-11-22-33',`product_batch`='20161222',`product_status`='',`product_fix`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T19:51:17+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0004s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T19:52:43+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0002s ]
+
+[ 2016-12-22T19:57:39+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T19:57:41+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0004s ]
+
+[ 2016-12-22T19:57:43+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T19:57:45+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T19:57:47+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+
+[ 2016-12-22T19:57:49+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 3  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='3' or product_maccode='' ) [ RunTime:0.0003s ]
+
+[ 2016-12-22T20:07:04+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0048s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('3','双面机','11-22-33-44','20161222') [ RunTime:0.0029s ]
+
+[ 2016-12-22T20:07:16+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0040s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('4','双面机','22-33-44-55','201612222') [ RunTime:0.0003s ]
+
+[ 2016-12-22T20:07:17+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0052s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('4','双面机','22-33-44-55','201612222') [ RunTime:0.0004s ]
+
+[ 2016-12-22T20:07:19+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0039s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('4','双面机','22-33-44-55','201612222') [ RunTime:0.0003s ]
+
+[ 2016-12-22T20:08:48+08:00 ] ::1 /meidian/index.php/Admin/Product/getStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `md_product` WHERE `id` = 5  [ RunTime:0.0003s ]
+SQL: UPDATE `md_product` SET `product_status`='0' WHERE ( id='5' or product_maccode='' ) [ RunTime:0.0004s ]
+
+[ 2016-12-22T20:09:16+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0038s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('5','挂式机','22-44-11-22','20161223') [ RunTime:0.0003s ]
+
+[ 2016-12-22T20:14:38+08:00 ] ::1 /meidian/index.php/Admin/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0044s ]
+SQL: INSERT INTO `md_product` (`barbershop_id`,`product_type`,`product_maccode`,`product_batch`) VALUES ('5','挂式机','22-44-11-22','20161223') [ RunTime:0.0007s ]
+
+[ 2016-12-22T20:14:50+08:00 ] ::1 /meidian/index.php/Admin/Product/delProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0040s ]
+SQL: DELETE FROM `md_product` WHERE ( id='7' ) [ RunTime:0.0016s ]
+
+[ 2016-12-22T20:15:49+08:00 ] ::1 /meidian/index.php/Admin/Product/updateProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_product` [ RunTime:0.0046s ]
+SQL: UPDATE `md_product` SET `barbershop_id`='5',`product_type`='挂式机',`product_maccode`='22-44-11-22',`product_batch`='20161223',`product_status`='',`product_fix`='0' WHERE ( id='9' or product_maccode='' ) [ RunTime:0.0006s ]
+

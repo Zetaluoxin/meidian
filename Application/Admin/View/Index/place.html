@@ -1,0 +1,20 @@
+<div id="place_select">
+	<select class="width-20 " id="form-field-select-3" name="province">
+		<option value="">请选择省份</option>
+		<foreach name="province" item="pro">
+		<option value="<{$pro.id}>"><{$pro.province_name}></option>
+		</foreach>
+	</select>
+	<select class="width-20 " id="form-field-select-1" name="city">
+		<option value="">请选择城市</option>		
+	</select>
+	<select class="width-20 " id="form-field-select-3" name="district">
+		<option value="">请选择区/县</option>
+	</select>
+	<select class="width-20 " id="form-field-select-3" name="street">
+		<option value="">请选择街道/村</option>
+	</select>
+	<select class="width-20 " id="form-field-select-3" name="barbershop">
+		<option value="">请选择理发店</option>
+	</select>
+</div>
