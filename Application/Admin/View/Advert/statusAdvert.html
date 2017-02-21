@@ -123,11 +123,14 @@
 						</div><!--表单组-->
 						<div class="clearfix form-actions">
 							<div class="col-md-offset-3 col-md-9">
-								<button class="btn btn-info updateadvert" type="button">
+								<button class="btn btn-info updateadvert" type="button" id="sure">
 									<i class="icon-ok bigger-110"></i>
 									确定
 								</button>
-
+								<button class="btn btn-info updateadvert" type="button" id="push">
+									<i class="icon-ok bigger-110"></i>
+									推送
+								</button>
 							</div>
 						</div>
 					</div><!--col-xs-12-->
@@ -221,7 +224,7 @@
 			
 			});
 			window.onload = function(){
-				 $("[type=button]").click(function(){
+				 $("#sure").click(function(){
 				 	var status = $("#status").val();
 				 	var advert_id = $("#advert_id").val();
 				 	$.ajax({
@@ -236,6 +239,20 @@
 			            }
 
 				 	})
+				 });
+				 $("#push").click(function(){
+				 	var advert_id = $("#advert_id").val();
+				 	$.ajax({
+				 		"url":app+"/Home/Advert/pushAdvert",
+			            "type":"post",
+			            "data":{"advert_id":advert_id},
+			            "success":function(res){
+			                if(res.status){
+			                    return dialog.successconfirm("推送成功");
+			                }
+			                return dialog.error("推送失败");
+			            }
+				 	});
 				 });
 			}
 		</script>
