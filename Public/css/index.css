@@ -1,0 +1,76 @@
+*{margin: 0;padding:0;}
+		.container{margin-top: 0;padding: 0;}
+		nav{border-top: 1px solid #ddd;padding: 7px 0 5px 0;box-shadow: 0 0 1px;}
+		#myTab a{padding: 0;text-align: center;color: black;}
+		#myTab .active a{border:0px;color: red;font-weight: bold;}
+		#myTab{border:0px;}
+		#myTab li{margin-top: -2px;}
+		#myTab a .icon{font-size: 20px;}
+		#home{overflow: auto;}
+		#home .navbar-fixed-top .row{margin-top: 10px;}
+		#home .navbar-fixed-top .row .col-xs-2{color: white;}
+		#home div{text-align: center; padding: 0;margin: 0;color: #666;}
+		#home span{text-align: center; padding: 0;margin: 0;}
+		#home #search{display: inline-block;}
+		#home .row #searches{border-radius: 5px;background: rgb(233,233,233);margin-top: 5px;padding: 5px;}
+		#carousel-example-generic{height: 180px;}
+		#carousel-example-generic img{height: 180px;}
+		#carousel-example-generic>a{background: white;}
+		#home .navtype{height: 140px;overflow: hidden;}
+		#home .Seckill{height: 200px;}
+		#type .navbar-fixed-top .row .col-xs-2{margin-top: 5px;}
+		#type>div>.row{text-align: center; padding: 0;margin: 0;color: #666;}
+		#type div{padding: 0;margin: 0;}
+		#type span{text-align: center; padding: 0;margin: 0;}
+		#type #search{display: inline-block;}
+		#type .row #searches{border-radius: 5px;background: rgb(233,233,233);margin: 5px 0 5px 0;}
+		#type .row div{padding-top: 5px;}
+		#type .row{margin: 0;padding: 0;}
+		#type .navbar-fixed-top{border-bottom: 1px solid #ddd;}
+		#type .row .left,.right{position: absolute;color: black;overflow: auto;}
+		#type .row .left{padding-top: 0;}
+		#type .left .typename{list-style: none;margin: 0;padding: 0px;text-align: center;font-weight: bold; }
+		#type .left .typename li{padding-top: 20px;padding-bottom: 20px;}
+		#type .right{background-color: #ddd;}
+		#type .right .topimg img{height: 50px;}
+		#type .right .contpl p{margin: 0;}
+		#type .right .contpl table{text-align: center;}
+		#type .left .selected{color: red;background: #ddd;}
+		#find>div>.row{text-align: center; padding: 0;margin: 0;color: #666;}
+		#find div{padding: 0;margin: 0;}
+		#find span{text-align: center; padding: 0;margin: 0;}
+		#find .row #searches{margin: 5px 0 5px 0;color: black;font-size: 22px;font-weight: bold;}
+		#find .row div{margin-top: 10px;}
+		#find .findtb{text-align: center;padding: 0 5px 0 5px;}
+		#find .findtb span{font-size: 13px;}
+		#find .findtb img{border-radius: 4px;height: 70px;}
+		#find #content{margin: 0 5px 0 5px;overflow: auto;}
+		#find .inlinenav{margin-top: 10px;}
+		#find .inlinenav ul{list-style: none;text-align: center;color: rgb(158,158,158);font-size: 14px;}
+		#find .inlinenav ul li{float: left;margin: 0px 10px 0 10px;}
+		#find #article ul li .header{float: right;}
+		#find #article ul .card{font-size: 14px;}
+		#cart div,span,img,.col-xs-10,.col-xs-2{margin: 0;padding:0;}
+		#cart #cartitle{height: 40px;border-bottom: 1px solid rgb(206,206,206);}
+		#cart #cartitle span{text-align: center;margin-top: 10px;}
+		#cart #cartitle .titletxt{padding-left: 50px;font-size: 18px;font-weight: bold;margin-top: 8px;}
+		#cart #cartcontent{overflow: auto;}
+		#cart #cartcontent .cart input{text-align: center;}
+		#cart #cartcontent .cart span{padding-right: 0;}
+		#cart #cartcontent .cart .shop{padding: 10px 0 5px 0;}
+		#cart #cartcontent .cart .shopinfo #price{padding: 20px 0 0 0;}
+		#cart .totalpay{position: absolute;bottom: 50px;height: 50px;}
+		#cart #recommend{margin-top: 20px;}
+		#cart h4{margin: 5px 0 0 0;padding:0;}
+		#cart .totalpay>div{height: 48px;line-height: 48px;text-align: center;}
+		#user .userheader{height: 150px;overflow: hidden;padding-left: 0;padding-right: 0;}
+		#user .userheader .bgblur{background: url("../img/userbg.png");background-repeat: no-repeat;background-size: 130% 100%;filter: blur(30px);height: 150px;}
+		#user .userheader .headup,.headown{position: absolute;}
+		#user .userheader .headup{top: 5px;color: white;}
+		#user .userheader .headown{top: 36px;}
+		/*#user .userheader .headown .file{ opacity:0;position: absolute;width: 70px;height: 70px;top: 0;}*/
+		#user .usermodel .userup,.userdown{text-align: center;}
+		#user .usermodel{margin: 0;padding: 0;}
+		#user .usermodel .userup td{padding-top: 25px;margin: 0 3px 0 3px;}
+		#user .usermodel .txt{font-size: 10px;}
+		#user .usermodel .userdown{margin-top: 40px;}
