@@ -1,0 +1,1 @@
+php Applications\app\start_register.php Applications\app\start_gateway.php Applications\app\start_businessworker.php 
