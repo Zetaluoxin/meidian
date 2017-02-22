@@ -308,3 +308,131 @@ SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0072s ]
 SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0052s ]
 SQL: UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id=1 ) [ RunTime:0.0005s ]
 
+[ 2017-02-22T13:43:07+08:00 ] ::1 /meidian/index.php/Admin/Advert/statusAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0064s ]
+SQL: UPDATE `md_advert` SET `ad_status`='已上架' WHERE `id` = 11 [ RunTime:0.0008s ]
+
+[ 2017-02-22T13:43:21+08:00 ] ::1 /meidian/index.php/Admin/Advert/examineAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0053s ]
+SQL: UPDATE `md_advert` SET `ad_examine`='驳回' WHERE `id` = 11 [ RunTime:0.0005s ]
+
+[ 2017-02-22T13:58:15+08:00 ] ::1 /meidian/index.php/Admin/Company/deleteCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0068s ]
+SQL: DELETE FROM `md_company` WHERE `id` = 1 [ RunTime:0.0005s ]
+
+[ 2017-02-22T13:58:27+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0073s ]
+SQL: INSERT INTO `md_company` (`com_name`,`user_id`) VALUES ('3123123123','1') [ RunTime:0.0007s ]
+
+[ 2017-02-22T13:58:39+08:00 ] ::1 /meidian/index.php/Admin/Company/updateCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0057s ]
+SQL: UPDATE `md_company` SET `com_name`='3123123123',`user_id`='1',`province_id`='0',`city_id`='0',`district_id`='0',`street_id`='0',`barbershop_id`='0' WHERE ( id=3 ) [ RunTime:0.0004s ]
+
+[ 2017-02-22T13:58:48+08:00 ] ::1 /meidian/index.php/Admin/Company/deleteCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0055s ]
+SQL: DELETE FROM `md_company` WHERE `id` = 2 [ RunTime:0.0004s ]
+
+[ 2017-02-22T13:58:57+08:00 ] ::1 /meidian/index.php/Admin/Company/deleteCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0064s ]
+SQL: DELETE FROM `md_company` WHERE `id` = 3 [ RunTime:0.0006s ]
+
+[ 2017-02-22T13:59:52+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0046s ]
+SQL: INSERT INTO `md_company` (`com_name`,`user_id`) VALUES ('123','1') [ RunTime:0.0004s ]
+
+[ 2017-02-22T13:59:57+08:00 ] ::1 /meidian/index.php/Admin/Company/deleteCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0075s ]
+SQL: DELETE FROM `md_company` WHERE `id` = 4 [ RunTime:0.0007s ]
+
+[ 2017-02-22T14:00:04+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-02-22T14:00:05+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0071s ]
+SQL: INSERT INTO `md_company` (`com_name`,`user_id`,`province_id`,`city_id`,`district_id`,`street_id`,`barbershop_id`) VALUES ('123123','1','1','0','0','0','0') [ RunTime:0.0005s ]
+
+[ 2017-02-22T14:00:11+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0059s ]
+SQL: INSERT INTO `md_company` (`com_name`,`user_id`) VALUES ('5464324565654r','1') [ RunTime:0.0004s ]
+
+[ 2017-02-22T14:00:17+08:00 ] ::1 /meidian/index.php/Admin/Company/deleteCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0047s ]
+SQL: DELETE FROM `md_company` WHERE `id` = 5 [ RunTime:0.0005s ]
+
+[ 2017-02-22T14:00:22+08:00 ] ::1 /meidian/index.php/Admin/Company/deleteCompany
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0056s ]
+SQL: DELETE FROM `md_company` WHERE `id` = 6 [ RunTime:0.0006s ]
+
+[ 2017-02-22T14:01:57+08:00 ] ::1 /meidian/index.php/Admin/Place/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `md_place` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `md_city` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `md_city` WHERE ( province_id=1 )  [ RunTime:0.0004s ]
+
+[ 2017-02-22T14:01:59+08:00 ] ::1 /meidian/index.php/Admin/Company/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0079s ]
+SQL: INSERT INTO `md_company` (`com_name`,`user_id`,`province_id`,`city_id`,`district_id`,`street_id`,`barbershop_id`) VALUES ('四川联广广告','1','1','0','0','0','0') [ RunTime:0.0005s ]
+

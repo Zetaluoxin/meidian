@@ -63,9 +63,12 @@ class CompanyLogic extends Model{
 	}
 
 
+	//删除广告公司  $data  要删除广告公司的id
+	public function deleteCompany($data){
+		return $this->m->where($data)->delete();
+	}
+
+
+
 }
-
-
-	
-
  ?>

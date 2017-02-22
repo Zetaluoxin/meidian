@@ -80,9 +80,6 @@ class BarbershopController extends CommonController{
 
 
 
-
-
-
 	/**
 	*修改理发店信息 通过理发店id
 	*@param

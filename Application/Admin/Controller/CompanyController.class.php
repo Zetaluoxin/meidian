@@ -150,16 +150,31 @@ class CompanyController extends CommonController{
 		}
 	}
 
+
+
+	/**
+	*删除广告公司
+	*@param $company_id 广告主id
+	*@return 
+	*/
+	public function deleteCompany(){
+		if(IS_POST){
+			I("post.company_id") ? $data['id']=I("post.company_id"):"";
+		}
+		$res = $this->m->deleteCompany($data);
+		if($res){
+			return $this->getinfo(1,"删除成功",$res);
+		}else{
+			return $this->getinfo(0,"删除失败",$res);
+		}
+	}
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
 
 
  ?>

@@ -170,9 +170,9 @@
 								</button>
 
 								&nbsp; &nbsp; &nbsp;
-								<button class="btn reset" type="reset">
+								<button class="btn deleteCompany" type="deleteCompany">
 									<i class="icon-undo bigger-110"></i>
-									重置
+									删除
 								</button>
 							</div>
 						</div>
@@ -245,8 +245,25 @@
 				$(".chosen-select").chosen(); 
 				updateCompany();
 				placesec();
+				deleteCompany();
 			}
-
+			function deleteCompany(){
+				$(".deleteCompany").click(function(){
+					var id = $(".form").attr("name");
+					$.ajax({
+						"url":app+"/Admin/Company/deleteCompany",
+						"type":"post",
+						"data":{
+							"company_id":id},
+						"success":function(res){
+							if(res.status){
+								return dialog.success("删除成功",app+"/Admin/Index/getCompany");
+							}
+							return dialog.error("删除失败");
+						}
+					});
+				});
+			}
 			function updateCompany(){
 				$(".updateCompany").click(function(){
 					var id = $(".form").attr("name");
