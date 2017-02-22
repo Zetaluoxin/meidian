@@ -20,29 +20,54 @@ class AdvertLogic extends RelationModel{
 	//广告获取
 	function select_Advert($data1){
 		$DAdvert=D("Advert");
+
 		//查询是否有到理发店的广告 有则返回 没有查询下一级别
-		$res_barbershop = $DAdvert->relation(true)->where("barbershop_id=".$data1['barbershop_id'])->order("ad_time asc")->limit(3)->select();
+		$where1['ad_status']     = "已上架";
+		$where1['ad_examine']    = "通过";
+		$where1['ad_pay']        = "已付费";
+		$where1['barbershop_id'] = $data1['barbershop_id'];
+		$res_barbershop = $DAdvert->relation(true)->where($where1)->order("ad_time asc")->limit(3)->select();
 		// dump($res_barbershop);die;
 		if($res_barbershop){
 			return $res_barbershop;
 		}
+
 		//查询是否有到街道的广告 有则返回 没有查询下一级
-		$res_street = $DAdvert->relation(true)->where("ad_street_id=".$data1['street_id'])->order("ad_time asc")->limit(3)->select();
+		$where2['ad_status']     = "已上架";
+		$where2['ad_examine']    = "通过";
+		$where2['ad_pay']        = "已付费";
+		$where2['ad_street_id'] = $data1['ad_street_id'];
+		$res_street = $DAdvert->relation(true)->where($where2)->order("ad_time asc")->limit(3)->select();
 		if($res_street){
 			return $res_street;
 		}
+
 		//查询是否有到区县的广告 有则返回 没有则查询下一级
-		$res_district = $DAdvert->relation(true)->where("ad_district_id=".$data1['district_id'])->order("ad_time asc")->limit(3)->select();
+		$where3['ad_status']     = "已上架";
+		$where3['ad_examine']    = "通过";
+		$where3['ad_pay']        = "已付费";
+		$where3['ad_district_id'] = $data1['ad_district_id'];
+		$res_district = $DAdvert->relation(true)->where($where3)->order("ad_time asc")->limit(3)->select();
 		if($res_district){
 			return $res_district;
 		}
+
 		//查询是否有市级的广告 有则返回  没有则查询下一级
-		$res_city = $DAdvert->relation(true)->where("ad_city_id=".$data1['city_id'])->order("ad_time asc")->limit(3)->select();
+		$where4['ad_status']     = "已上架";
+		$where4['ad_examine']    = "通过";
+		$where4['ad_pay']        = "已付费";
+		$where4['ad_city_id'] = $data1['ad_city_id'];
+		$res_city = $DAdvert->relation(true)->where($where4)->order("ad_time asc")->limit(3)->select();
 		if($res_city){
 			return $res_city;
 		}
+
 		//查询是否有到省级的广告 有则返回 没有则查询下一级
-		$res_province = $DAdvert->relation(true)->where("ad_province_id=".$data1['province_id'])->order("ad_time asc")->limit(3)->select();
+		$where5['ad_status']     = "已上架";
+		$where5['ad_examine']    = "通过";
+		$where5['ad_pay']        = "已付费";
+		$where5['ad_province_id'] = $data1['ad_province_id'];
+		$res_province = $DAdvert->relation(true)->where($where5)->order("ad_time asc")->limit(3)->select();
 		if($res_province){
 			return $res_province;
 		}

@@ -42,20 +42,17 @@ class AdvertController extends CommonController{
 		//获得终端的详情 地理位置
 		$p = D("Product","Logic");
 		$res=$p->getProduct($data);
-		// dump($res);die;
 		//组装参数
-		$data1['province_id'] 	= $res[0]['province_id'];   //所在省份id
-		$data1['city_id']     	= $res[0]['city_id'];           //所在市id
-		$data1['district_id'] 	= $res[0]['district_id'];   //所在区/县id
-		$data1['street_id']   	= $res[0]['street_id'];       //所在街道id
+		$data1['ad_province_id'] 	= $res[0]['province_id'];   //所在省份id
+		$data1['ad_city_id']     	= $res[0]['city_id'];           //所在市id
+		$data1['ad_district_id'] 	= $res[0]['district_id'];   //所在区/县id
+		$data1['ad_street_id']   	= $res[0]['street_id'];       //所在街道id
 		$data1['barbershop_id'] = $res[0]['barbershop_id'];
-		// dump($data1);die;
 		$res1 = $this->m->select_Advert($data1);
-		// dump($res1);die;
 		if($res1){
 			return $this->getinfo(1,'success',$res1);
 		}else{
-			return $this->geitinfo(0,'falid',$res1);
+			return $this->getinfo(0,'falid',$res1);
 		}
 	}
 

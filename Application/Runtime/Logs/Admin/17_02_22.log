@@ -436,3 +436,31 @@ SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0074s ]
 SQL: SHOW COLUMNS FROM `md_company` [ RunTime:0.0079s ]
 SQL: INSERT INTO `md_company` (`com_name`,`user_id`,`province_id`,`city_id`,`district_id`,`street_id`,`barbershop_id`) VALUES ('四川联广广告','1','1','0','0','0','0') [ RunTime:0.0005s ]
 
+[ 2017-02-22T14:26:08+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+ERR: 非法数据对象！
+
+[ 2017-02-22T14:26:09+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+ERR: 非法数据对象！
+
+[ 2017-02-22T14:26:10+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+ERR: 非法数据对象！
+
+[ 2017-02-22T14:26:18+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+ERR: 非法数据对象！
+
+[ 2017-02-22T15:14:36+08:00 ] ::1 /meidian/index.php/Admin/Advert/payAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0051s ]
+SQL: UPDATE `md_advert` SET `ad_pay`='已付费' WHERE `id` = 10 [ RunTime:0.0005s ]
+
+[ 2017-02-22T15:24:35+08:00 ] ::1 /meidian/index.php/Admin/Advert/examineAdvert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_advert` [ RunTime:0.0084s ]
+SQL: UPDATE `md_advert` SET `ad_examine`='通过' WHERE `id` = 11 [ RunTime:0.0005s ]
+
