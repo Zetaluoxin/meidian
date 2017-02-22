@@ -204,3 +204,107 @@ SQL: DELETE FROM `md_user` WHERE ( id=2 ) [ RunTime:0.0006s ]
 [ 2017-02-22T11:27:10+08:00 ] ::1 /meidian/index.php/Admin/index/index.js.map
 ERR: 非法操作:index.js.map
 
+[ 2017-02-22T13:27:59+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: barbershop_id C:\wamp\www\meidian\Application\Admin\Logic\BarbershopLogic.class.php 第 58 行.
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+
+[ 2017-02-22T13:28:00+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: barbershop_id C:\wamp\www\meidian\Application\Admin\Logic\BarbershopLogic.class.php 第 58 行.
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+
+[ 2017-02-22T13:28:00+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: barbershop_id C:\wamp\www\meidian\Application\Admin\Logic\BarbershopLogic.class.php 第 58 行.
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+
+[ 2017-02-22T13:28:00+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003142s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: barbershop_id C:\wamp\www\meidian\Application\Admin\Logic\BarbershopLogic.class.php 第 58 行.
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+
+[ 2017-02-22T13:28:05+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+ERR: 非法数据对象！
+
+[ 2017-02-22T13:28:57+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0069s ]
+
+[ 2017-02-22T13:29:17+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0081s ]
+
+[ 2017-02-22T13:29:26+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003360s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0078s ]
+
+[ 2017-02-22T13:31:30+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: barbershop_id C:\wamp\www\meidian\Application\Admin\Logic\BarbershopLogic.class.php 第 58 行.
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+
+[ 2017-02-22T13:31:59+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004948s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: barbershop_id C:\wamp\www\meidian\Application\Admin\Logic\BarbershopLogic.class.php 第 58 行.
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id= )
+
+[ 2017-02-22T13:32:21+08:00 ] ::1 /meidian/index.php/Admin/Barbershop/updateBarbershop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002788s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `md_barbershop` [ RunTime:0.0052s ]
+SQL: UPDATE `md_barbershop` SET `barbershop_name`='罗鑫鑫',`barbershop_cash`='0',`user_id`='1',`babershop_qrcode`='',`barbershop_province`='1',`barbershop_city`='2',`barbershop_district`='2',`barbershop_street`='1' WHERE ( id=1 ) [ RunTime:0.0005s ]
+

@@ -80,7 +80,7 @@
 							</li>
 
 							<li>
-								<a href="#">
+								<a href='http://localhost/meidian/index.php/admin/index/userinfo'>
 									<i class="icon-user"></i>
 									个人资料
 								</a>

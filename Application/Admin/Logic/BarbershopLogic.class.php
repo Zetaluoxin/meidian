@@ -54,8 +54,8 @@ class BarbershopLogic extends Model{
 	*@param
 	*@return
 	*/
-	public function updateBarbershop($babershop_id,$data){
-		$res=$this->m->where('id='.$barbershop_id)->data($data)->save();
+	public function updateBarbershop($barbershop_id,$data){
+		$res=$this->m->where("id=".$barbershop_id)->data($data)->save();
 		return $res;
 	}
 

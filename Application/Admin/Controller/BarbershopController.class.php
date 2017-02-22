@@ -115,7 +115,7 @@ class BarbershopController extends CommonController{
 		if($res){
 			return $this->getinfo(1,'修改成功',$res);
 		}else{
-			return $this->getinfo(0,'修改分失败',$res);			
+			return $this->getinfo(0,'修改失败',$res);			
 		}
 	}
 
