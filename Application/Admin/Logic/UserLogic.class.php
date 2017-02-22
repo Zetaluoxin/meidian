@@ -141,8 +141,8 @@ class UserLogic extends Model{
 	*@return
 	* 
 	*/
-	public function delUser($user_id,$data){
-		return $this->m->where('id='.$user_id)->data($data)->save();
+	public function delUser($user_id){
+		return $this->m->where('id='.$user_id)->delete();
 	}
 
 

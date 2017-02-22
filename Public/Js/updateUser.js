@@ -27,7 +27,6 @@
 //     });
 // });
 
-
 function updateUser(){
     $(".updateuser").click(function(){
         layer.confirm(

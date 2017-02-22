@@ -440,13 +440,13 @@
 							<div class="col-md-offset-3 col-md-9">
 								<button class="btn btn-info updateuser" type="button">
 									<i class="icon-ok bigger-110"></i>
-									添加
+									修改
 								</button>
 
 								&nbsp; &nbsp; &nbsp;
-								<button class="btn reset" type="reset">
+								<button class="btn delete" type="delete">
 									<i class="icon-undo bigger-110"></i>
-									重置
+									删除
 								</button>
 							</div>
 						</div>
@@ -605,6 +605,25 @@
 
 			
 			});
+			window.onload=function(){
+				deleteUser();
+			}
+			function deleteUser(){
+				$(".delete").click(function(){
+					var user_id = $(".user_form").attr("name");
+					$.ajax({
+						"url":app+"/Admin/User/delUser",
+                    	"type":"post",
+                    	"data":{"user_id":user_id},
+                    "success":function(res){
+                        if(res.status){
+                            return dialog.success("删除成功!",app+"/Admin/index/getUser");
+                        }
+                        return dialog.error("删除失败!");
+                    }
+					});
+				});
+			}
 		</script>
 
 		<!--自己的js代码引入-->

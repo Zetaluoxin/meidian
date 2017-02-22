@@ -1,0 +1,206 @@
+[ 2017-02-22T09:27:27+08:00 ] ::1 /meidian/index.php/admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0005s ]
+SQL: UPDATE `md_user` SET `logintime`='2017-02-22 09:27:27',`lastloginip`='0.0.0.0' WHERE ( id='1' ) [ RunTime:0.0008s ]
+
+[ 2017-02-22T09:51:04+08:00 ] ::1 /meidian/index.php/Admin/File/addVideo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003737s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM md_auth_group_access a INNER JOIN md_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_auth_rule` [ RunTime:0.0057s ]
+SQL: SELECT `condition`,`name` FROM `md_auth_rule` WHERE `id` IN ('1','4','5','6','2','3','7','8','9','10','11','12','13','14','15') AND `type` = 'Admin' AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `md_file_img` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `md_file_video` [ RunTime:0.0081s ]
+SQL: INSERT INTO `md_file_video` (`video_url`,`video_name`,`video_size`) VALUES ('20170222/1487728263_316036464.mp4','1487140819_1707885669.mp4','1006063') [ RunTime:0.0034s ]
+
+[ 2017-02-22T10:08:34+08:00 ] ::1 /meidian/index.php/admin/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `md_user` WHERE `username` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `md_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `md_auth_group_access` WHERE ( uid=1 )  [ RunTime:0.0007s ]
+SQL: UPDATE `md_user` SET `logintime`='2017-02-22 10:08:34',`lastloginip`='0.0.0.0' WHERE ( id='1' ) [ RunTime:0.0006s ]
+
+[ 2017-02-22T10:22:25+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:22:28+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:22:30+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:23:08+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:29:16+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:29:35+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:35:33+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:35:54+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:36:01+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:36:08+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:38:53+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:39:20+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:46:56+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:47:02+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:47:13+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:54:35+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:54:44+08:00 ] ::1 /meidian/index.php/Admin/User/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 2 for Admin\Logic\UserLogic::delUser(), called in C:\wamp\www\meidian\Application\Admin\Controller\UserController.class.php on line 328 and defined C:\wamp\www\meidian\Application\Admin\Logic\UserLogic.class.php 第 144 行.
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `md_user` WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `md_user` WHERE ( id= )
+
+[ 2017-02-22T10:55:02+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:55:04+08:00 ] ::1 /meidian/index.php/Admin/User/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0049s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `md_user` WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `md_user` WHERE ( id= )
+
+[ 2017-02-22T10:59:23+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T10:59:40+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:00:36+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:00:41+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:00:44+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:00:45+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:01:13+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:02:31+08:00 ] ::1 /meidian/index.php/Admin/User/addUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0061s ]
+SQL: UPDATE `md_user` SET `nickname`='联广科技',`names`='罗鑫',`qq`='411132154',`postalcode`='621000',`telephonenum`='18011109729' WHERE ( id=1 ) [ RunTime:0.0005s ]
+
+[ 2017-02-22T11:18:02+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:25:38+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:25:40+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:25:44+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:25:45+08:00 ] ::1 /meidian/index.php/Admin/User/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0057s ]
+SQL: DELETE FROM `md_user` WHERE ( id=3 ) [ RunTime:0.0016s ]
+
+[ 2017-02-22T11:25:52+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:25:57+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:25:58+08:00 ] ::1 /meidian/index.php/Admin/User/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0071s ]
+SQL: DELETE FROM `md_user` WHERE ( id=6 ) [ RunTime:0.0005s ]
+
+[ 2017-02-22T11:26:01+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:26:05+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:26:06+08:00 ] ::1 /meidian/index.php/Admin/User/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0047s ]
+SQL: DELETE FROM `md_user` WHERE ( id=5 ) [ RunTime:0.0004s ]
+
+[ 2017-02-22T11:26:10+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:27:01+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:27:01+08:00 ] ::1 /meidian/index.php/Admin/User/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0048s ]
+SQL: DELETE FROM `md_user` WHERE ( id=4 ) [ RunTime:0.0004s ]
+
+[ 2017-02-22T11:27:04+08:00 ] ::1 /meidian/index.php/Admin/index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:27:07+08:00 ] ::1 /meidian/index.php/Admin/Index/index.js.map
+ERR: 非法操作:index.js.map
+
+[ 2017-02-22T11:27:07+08:00 ] ::1 /meidian/index.php/Admin/User/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `md_user` [ RunTime:0.0071s ]
+SQL: DELETE FROM `md_user` WHERE ( id=2 ) [ RunTime:0.0006s ]
+
+[ 2017-02-22T11:27:10+08:00 ] ::1 /meidian/index.php/Admin/index/index.js.map
+ERR: 非法操作:index.js.map
+

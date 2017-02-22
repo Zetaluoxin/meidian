@@ -20,7 +20,6 @@ return array(
 	'URL_CASE_INSENSITIVE' => true, 
 	'URL_HTML_SUFFIX'=>'.html',
 	"HTML_FILE_SUFFIX"=>'.html',
-	'URL_HTML_SUFFIX'=>'shtml',
 	// 'DEFAULT_MODULE'        =>  'Admin',  // 默认模块
 	// 'DEFAULT_ACTION'        =>  'login', // 默认操作名称
 	// 'URL_MODULE_MAP'    =>    array('index'=>'admin'),//模块映射
@@ -31,7 +30,7 @@ return array(
 		 '__APP__'	=> 'http://localhost/meidian/index.php'
 	 ),
 	 'AUTH_CONFIG' => array(
-	  'AUTH_ON' => true, //认证开关
+	  'AUTH_ON' => false, //认证开关
 	  'AUTH_TYPE' => 1, // 认证方式，1为时时认证；2为登录认证。
 	  'AUTH_GROUP' => 'md_auth_group', //用户组数据表名
 	  'AUTH_GROUP_ACCESS' => 'md_auth_group_access', //用户组明细表

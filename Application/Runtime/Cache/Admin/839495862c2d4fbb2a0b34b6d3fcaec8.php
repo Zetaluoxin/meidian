@@ -425,7 +425,7 @@
 
 							
 						<tbody role="alert" aria-live="polite" aria-relevant="all">
-							<?php if(is_array($user)): foreach($user as $key=>$u): ?><tr class="odd" name="<?php echo ($u["id"]); ?>">
+							<?php if(is_array($user)): foreach($user as $key=>$u): ?><tr class="odd" name="<?php echo ($u["id"]); ?>" id="uid">
 									<td class="center  sorting_1">
 										<label>
 											<input type="checkbox" class="ace">
@@ -456,11 +456,6 @@
 											<a class="green" href="http://localhost/meidian/index.php/Admin/Index/updateUser?id=<?php echo ($u["id"]); ?>&username=<?php echo ($u["username"]); ?>&names=<?php echo ($u["names"]); ?>&nickname=<?php echo ($u["nickname"]); ?>&telephonenum=<?php echo ($u["telephonenum"]); ?>&qq=<?php echo ($u["qq"]); ?>&postalcode=<?php echo ($u["postalcode"]); ?>&province_id=<?php echo ($u["province_id"]); ?>&city_id=<?php echo ($u["city_id"]); ?>&district_id=<?php echo ($u["district_id"]); ?>&street_id=<?php echo ($u["street_id"]); ?>">
 												<i class="icon-pencil bigger-130"></i>
 												编辑
-											</a>
-
-											<a class="red deluser" href="javascript:void(0)">
-												<i class="icon-trash bigger-130"></i>
-												删除
 											</a>
 										</div>
 									</td>
@@ -635,36 +630,7 @@
 						$(".odd").toggleClass('selected');
 					});
 				});
-
-			}
-
-			function deluser(){
-				$(".deluser").click(function(){
-					var tr = $(this).parent().parent().parent();
-					var user_id = tr.attr("name");
-					layer.confirm(
-						"确认删除此用户吗？",
-						{icon:3,title:'提示'},
-						function(index){
-							$.ajax({
-								"url":app+"/Admin/User/delUser",
-								"type":"post",
-								"data":{"id":user_id},
-								"success":function(res){
-									if(res.status){
-										tr.remove();
-										return dialog.successconfirm("删除成功");
-									}
-									return dialog.error("删除失败");
-								}
-							});
-							layer.close(index);
-						}
-					)
-				});
-			}
-
-
+			}	
 			function search(){
 					$(".search").click(function(){
 						var sec = $("#filed").val();

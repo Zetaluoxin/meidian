@@ -319,14 +319,13 @@ class UserController extends CommonController{
 	* 
 	*/
 	public function delUser(){
-		$data['user_status']=0;
 		if(IS_GET){
 			$user_id=I('get.user_id');
 		}
 		if(IS_POST){
 			$user_id=I('post.user_id');
 		}
-		$res=$this->m->delUser($user_id,$data);
+		$res=$this->m->delUser($user_id);
 		if($res){
 			return $this->getinfo(1,'禁用成功',$res);
 		}else{
